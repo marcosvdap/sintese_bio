@@ -1,0 +1,152 @@
+/* ========== CABEÇALHO ========== */
+.divisor {
+  width: 2px;
+  height: 14px;
+  background: #253785;
+  /* margin: 0 1.5rem; */
+}
+.divider   
+{
+  width: 120%;
+  height: 3px; /* Define a altura da barra */
+  background-color: #004b87; /* Cor azul da barra */
+  position: absolute;
+  bottom: 0;
+  left: 0; /* Garante que a barra comece no canto esquerdo */
+  right: 0; /* Garante que a barra termine no canto direito */
+}
+
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 4rem;
+  background: white;
+  min-height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: #1f2937;
+}
+
+img {
+  width: 0px;
+  height: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 0;
+  align-items: center;
+}
+
+/* ========== BOTÃO DE MENU MOBILE ========== */
+.menuToggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: #1f2937;
+  transition: color 0.3s ease;
+}
+
+.menuToggle:hover {
+  color: #253785;
+}
+
+/* ========== BOTÃO CATÁLOGO (linkButton) ========== */
+.linkButton {
+  color: #253785;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 0.65rem 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  background: #FCC204;
+  border-radius: 50px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  border: none;
+  margin-left: 1.5rem;
+}
+
+.linkButton:hover {
+  background: #e6b003;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(252, 194, 4, 0.4);
+}
+
+/* ========== RESPONSIVO ========== */
+@media (min-width: 1200px) {
+  .cabecalho {
+    padding: 1.5rem 6rem;
+  }
+  
+  img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cabecalho {
+    padding: 1rem 2rem;
+    min-height: 70px;
+  }
+
+  .menuToggle {
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 2rem;
+    gap: 1.5rem;
+    width: 280px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    border-left: 2px solid #e5e7eb;
+    box-shadow: -4px 0 12px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    max-height: calc(100vh - 70px);
+    overflow-y: auto;
+  }
+
+  .nav.aberto {
+    transform: translateX(0);
+  }
+
+  .linkButton {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .divisor {
+    display: none;
+  }
+
+  img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cabecalho {
+    padding: 1rem 1.5rem;
+  }
+
+  img {
+    width: 130px;
+  }
+}

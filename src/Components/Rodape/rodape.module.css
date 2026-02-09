@@ -1,0 +1,151 @@
+/* rodape.module.css */
+.rodape {
+  background-color: #253785;
+  padding: 3rem 4rem;
+  color: #ffffff;
+}
+
+.rodapeContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 4rem;
+  align-items: center; /* Mudei de start para center */
+}
+
+.rodapeColuna {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center; /* Centraliza verticalmente */
+}
+
+/* Remove isso da primeira coluna se tiver */
+.rodapeColuna:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center; /* Adiciona aqui também */
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.copyright {
+  font-size: 0.85rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.cnpj {
+  font-size: 0.85rem;
+  margin: 0;
+  color: #e0e0e0;
+}
+
+.links {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.links a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #FCC204;
+}
+
+.links span {
+  color: #ffffff;
+}
+
+/* Colunas 2 e 3 */
+.rodapeColuna h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  letter-spacing: 0.5px;
+  margin-top: 4rem;
+}
+
+.rodapeColuna p,
+.rodapeColuna a {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+
+.rodapeColuna a:hover {
+  text-decoration: underline;
+}
+
+.linkDenuncia {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+/* Redes Sociais */
+.redesSociais {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.redesSociais a {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.redesSociais a:hover {
+  transform: scale(1.1);
+}
+
+.redesSociais img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* Deixa os ícones brancos */
+}
+
+/* Responsividade */
+@media (max-width: 968px) {
+  .rodapeContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .rodape {
+    padding: 2rem;
+  }
+
+  .logo {
+    width: 130px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rodape {
+    padding: 1.5rem;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+
+  .links span {
+    display: none;
+  }
+}

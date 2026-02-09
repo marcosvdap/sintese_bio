@@ -1,0 +1,190 @@
+/* filtrosbusca.module.css */
+.filtrosContainer {
+  width: 100vw;
+  margin-left: calc(-50vw + 40%);
+  padding: 2.5rem 4rem;
+  background: #d3d3d3;
+}
+
+.buscaWrapper {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.buscaInput {
+  width: 100%;
+  padding: 1rem 1rem 1rem 3.5rem;
+  border: 2px solid #253785;
+  border-radius: 50px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.buscaInput:focus {
+  border-color: #1a2660;
+  box-shadow: 0 4px 12px rgba(37, 55, 133, 0.2);
+}
+
+.buscaInput::placeholder {
+  color: #999;
+}
+
+/* Header do Filtro */
+.filtroHeader {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background: #253785;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.filtroHeader:hover {
+  background: #1a2660;
+}
+
+.filtroTitulo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.filtroIcon {
+  flex-shrink: 0;
+}
+
+.chevron {
+  margin-left: auto;
+  transition: transform 0.3s ease;
+}
+
+.chevron.aberto {
+  transform: rotate(180deg);
+}
+
+/* Conteúdo do Filtro */
+.filtroContent {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background: white;
+  padding: 2rem 4rem;
+  border-bottom: 3px solid #253785;
+}
+
+.filtroSecao {
+  margin-bottom: 2rem;
+}
+
+.filtroSecao:last-child {
+  margin-bottom: 0;
+}
+
+.todoBtn {
+  background: #253785;
+  color: white;
+  padding: 0.6rem 2rem;
+  border: 2px solid #253785;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.todoBtn:hover {
+  background: #1a2660;
+  border-color: #1a2660;
+}
+
+.todoBtn.active {
+  background: #253785;
+}
+
+.filtroSubtitulo {
+  color: #253785;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.filtroButtons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.filtroBtn {
+  padding: 0.6rem 1.5rem;
+  border: 2px solid #253785;
+  background: white;
+  color: #253785;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.filtroBtn:hover {
+  background: #253785;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.filtroBtn.active {
+  background: #253785;
+  color: white;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .filtrosContainer {
+    padding: 1.5rem 2rem;
+  }
+
+  .filtroHeader {
+    padding: 1rem 2rem;
+  }
+
+  .filtroContent {
+    padding: 1.5rem 2rem;
+  }
+
+  .buscaInput {
+    font-size: 0.9rem;
+    padding: 0.9rem 0.9rem 0.9rem 3rem;
+  }
+
+  .searchIcon {
+    left: 15px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .filtroButtons {
+    gap: 0.8rem;
+  }
+
+  .filtroBtn {
+    font-size: 0.85rem;
+    padding: 0.5rem 1.2rem;
+  }
+}

@@ -1,0 +1,243 @@
+/* Wrapper para fundo full width */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: #e8eaf6;
+}
+
+/* Header - Agora fora do container */
+.header {
+  background: linear-gradient(135deg, #253785 0%, #1a2a5e 100%);
+  width: 100%;
+  padding: 1.5rem 0;
+}
+
+.headerTop {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.iconCarrinho {
+  font-size: 2rem;
+  color: white;
+}
+
+.header h1 {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0;
+  flex: 1;
+}
+
+.btnVoltarCatalogo {
+  background: #FCC204;
+  color: #253785;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.btnVoltarCatalogo:hover {
+  background: #e6b000;
+  transform: translateY(-2px);
+}
+
+.btnWhatsapp {
+  background: #25D366;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.8rem;
+}
+
+.btnWhatsapp:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+}
+
+/* Conteúdo */
+.conteudo {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Lista de Itens */
+.listaItens {
+  margin-bottom: 2rem;
+}
+
+/* Carrinho Vazio */
+.carrinhoVazio {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: white;
+  border-radius: 20px;
+  border: 3px dashed #253785;
+  margin: 2rem 0;
+}
+
+.iconeVazio {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  opacity: 0.3;
+}
+
+.carrinhoVazio h2 {
+  color: #253785;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.carrinhoVazio p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.btnVoltar {
+  background: #253785;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.btnVoltar:hover {
+  background: #1a2a5e;
+  transform: translateY(-2px);
+}
+
+/* Rodapé */
+.rodape {
+  background: white;
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.rodapeInfo {
+  display: flex;
+  align-items: center;
+}
+
+.quantidadeTotal {
+  color: #253785;
+  font-size: 1rem;
+  font-weight: 700;
+  background: #f0f0f0;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+}
+
+.rodapeBotoes {
+  display: flex;
+  gap: 1rem;
+}
+
+.btnFazerCotacao {
+  background: #00bcd4;
+  color: white;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  box-shadow: 0 4px 12px rgba(0, 188, 212, 0.3);
+}
+
+.btnFazerCotacao:hover {
+  background: #0097a7;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 188, 212, 0.4);
+}
+
+.btnLimpar {
+  background: white;
+  color: #666;
+  padding: 1rem 2rem;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.btnLimpar:hover {
+  background: #f5f5f5;
+  border-color: #999;
+  transform: translateY(-2px);
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .rodape {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: stretch;
+  }
+
+  .rodapeInfo {
+    justify-content: center;
+  }
+
+  .rodapeBotoes {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0;
+  }
+
+  .header {
+    padding: 1rem 0;
+  }
+
+  .headerTop {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .header h1 {
+    width: 100%;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .conteudo {
+    padding: 1rem;
+  }
+}
