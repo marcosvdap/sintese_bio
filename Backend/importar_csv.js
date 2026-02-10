@@ -1,107 +1,77 @@
-// importar-produtos-csv.js
-// Script simples para importar apenas os dados que estão no CSV
-
-const sqlite3 = require('sqlite3').verbose();
+// Arquivo: Backend/importar-produtos-csv.js
 const fs = require('fs');
 const csv = require('csv-parser');
 const path = require('path');
 
-// Configurações
-const csvPath = './PLANILHA - PLANILHA.csv (1).csv'; // Ajuste o caminho do CSV
-const dbPath = '../Backend/produtos.db'; // Ajuste o caminho do banco
+// MUDANÇA AQUI: Como o arquivo js e o csv estão na mesma pasta, 
+// removemos o ".." e apontamos direto para o arquivo.
+const csvPath = path.join(__dirname, 'Produtos_ini.csv'); 
 
-// Conectar ao banco existente
-const db = new sqlite3.Database(dbPath, (err) => {
-  if (err) {
-    console.error('❌ Erro ao conectar ao banco:', err.message);
-    process.exit(1);
-  }
-  console.log('✅ Conectado ao banco SQLite existente');
-});
-
-// Função para importar produtos do CSV
-function importarProdutos() {
-  const produtos = [];
-  
-  console.log('📂 Lendo arquivo CSV...\n');
-  
-  // Ler o arquivo CSV
-  fs.createReadStream(csvPath)
-    .pipe(csv())
-    .on('data', (row) => {
-      // Pegar apenas os campos que existem no CSV
-      produtos.push({
-        nome: row.NOME,
-        tipo: row.TIPO,
-        aplicacao: row.APLICACAO,
-        categoria: row.categoria, // IDT, BIORAD BRASIL, etc
-        codigo_fabricante: row.codigo_fabricante || '',
-        descricao: row.descricao || '',
-        link: row.link || '',
-        imagem: row.imagem , // Não tem no CSV, então deixa null
-        destaque: row.Destaque  || 'F' // Padrão 'F' se não existir
-      });
-    })
-    .on('end', () => {
-      console.log(`✅ ${produtos.length} produtos lidos do CSV\n`);
-      
-      // Inserir cada produto no banco
-      let inseridos = 0;
-      let erros = 0;
-      
-      produtos.forEach((produto, index) => {
-        const sql = `
-          INSERT INTO produtos (nome,tipo,aplicacao,categoria, codigo_fabricante, descricao,link , imagem,destaque) 
-          VALUES (?, ?, ?, ?, ?, ?,?,?,?)
-        `;
+function importarProdutos(db) {
+    return new Promise((resolve, reject) => {
+        const produtos = [];
         
-        db.run(sql, [
-          produto.nome,
-          produto.tipo,
-          produto.aplicacao,
-          produto.categoria,
-          produto.codigo_fabricante,
-          produto.descricao,
-          produto.link,
-          produto.imagem,
-          produto.destaque
-        ], function(err) {
-          if (err) {
-            console.error(`❌ Erro ao inserir "${produto.nome}":`, err.message);
-            erros++;
-          } else {
-            console.log(`✅ Inserido: ${produto.nome} - R$ ${produto.preco}`);
-            inseridos++;
-          }
-          
-          // Se for o último item, mostrar resumo
-          if (index === produtos.length - 1) {
-            setTimeout(() => {
-              console.log('\n' + '='.repeat(50));
-              console.log('📊 RESUMO DA IMPORTAÇÃO:');
-              console.log(`   ✅ Produtos inseridos: ${inseridos}`);
-              console.log(`   ❌ Erros: ${erros}`);
-              console.log(`   📦 Total processado: ${produtos.length}`);
-              console.log('='.repeat(50) + '\n');
-              
-              // Fechar conexão
-              db.close((err) => {
-                if (err) {
-                  console.error('Erro ao fechar banco:', err.message);
-                } else {
-                  console.log('✅ Conexão fechada. Importação concluída!');
-                }
-              });
-            }, 500);
-          }
-        });
-      });
-    })
-    .on('error', (err) => {
-      console.error('❌ Erro ao ler arquivo CSV:', err.message);
-      db.close();
+        // Verifica se o arquivo existe
+        if (!fs.existsSync(csvPath)) {
+            return reject(new Error(`Arquivo CSV não encontrado em: ${csvPath}`));
+        }
+
+        console.log('📂 Lendo arquivo CSV para popular banco...');
+
+        fs.createReadStream(csvPath)
+            .pipe(csv())
+            .on('data', (row) => {
+                produtos.push({
+                    nome: row.NOME,
+                    tipo: row.TIPO,
+                    aplicacao: row.APLICACAO,
+                    categoria: row.categoria,
+                    codigo_fabricante: row.codigo_fabricante || '',
+                    descricao: row.descricao || '',
+                    link: row.link || '',
+                    imagem: row.imagem || '/Imagens/produtos/placeholder.png',
+                    destaque: row.Destaque || 'F'
+                });
+            })
+            .on('end', () => {
+                console.log(`✅ CSV Lido: ${produtos.length} produtos encontrados.`);
+                
+                db.serialize(() => {
+                    db.run("BEGIN TRANSACTION");
+
+                    const stmt = db.prepare(`
+                        INSERT INTO produtos (
+                            nome, tipo, aplicacao, categoria, 
+                            codigo_fabricante, descricao, link, imagem, destaque
+                        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    `);
+
+                    produtos.forEach((p) => {
+                        stmt.run([
+                            p.nome, p.tipo, p.aplicacao, p.categoria,
+                            p.codigo_fabricante, p.descricao, p.link, p.imagem, p.destaque
+                        ], (err) => {
+                            if (err) console.error(`❌ Erro na linha ${p.nome}:`, err.message);
+                        });
+                    });
+
+                    stmt.finalize((err) => {
+                        if (err) {
+                            db.run("ROLLBACK");
+                            reject(err);
+                        } else {
+                            db.run("COMMIT", () => {
+                                console.log(`🏁 Importação via CSV concluída!`);
+                                resolve();
+                            });
+                        }
+                    });
+                });
+            })
+            .on('error', (err) => {
+                reject(err);
+            });
     });
 }
 
-// Executar importação
-importarProdutos();
+module.exports = importarProdutos;

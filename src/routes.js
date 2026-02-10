@@ -6,6 +6,8 @@ import Eventos from "./pages/eventos";
 import Carrinho from "pages/Carrinho";
 import Contato from "pages/Contato";
 import Denuncia from "pages/Canaldenuncia";
+import Politica from "pages/Privacidade";
+import CookiesAtend from "pages/CookiesAtend";
 import { AuthProvider } from './contexts/AuthContext';
 import ProtectedRoute from './Components/ProtectedRoute';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -25,6 +27,8 @@ function AppRoutes() {
           <Route path="/carrinho" element={<Carrinho />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="/denuncia" element={<Denuncia />} />
+          <Route path="/privacidade" element={<Politica />} />
+          <Route path="/cookies" element={<CookiesAtend />} />
           {/* Rota protegida */}
           <Route
             path="/admin"

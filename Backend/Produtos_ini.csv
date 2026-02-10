@@ -1,0 +1,535 @@
+NOME,TIPO,APLICACAO,categoria,codigo_fabricante,descricao,link,imagem,Destaque
+Base de oligonucleotídeo IDT (25 nmol - 10 umol),Reagentes laboratoriais,"PCR, qPCR, NGS, ddPCR",IDT,COR100014,"Nome do produto: Base de oligonucleotídeo IDT (25 nmol – 10 µmol)
+
+Código do produto: COR100014 — Custom (IDT)
+
+Oligonucleotídeos de DNA customizados em escalas de 25 nmol a 10 µmol, com controle de qualidade por espectrometria de massas por eletrospray (ESI-MS) para verificação de identidade do oligo, com traços disponíveis no histórico do pedido. Permite ampla customização com modificações em 5′, internas e 3′, incluindo fluoróforos, dark quenchers, modificadores amino (5′/3′ e interno via amino-dT), biotinilação, tiol, fosforilação 5′ (para uso como substrato de ligase) e fosforilação 3′ (para bloquear extensão por DNA polimerase e reduzir degradação), além de spacers (ex.: C3, Spacer 9, Spacer 18 e dSpacer) e modificações para click chemistry (ex.: DBCO).",https://www.idtdna.com/page/products/custom-dna-rna/dna-oligos/,\Imagens\produtos\Rabbit.jpg,T
+Sonda PrimeTime™ IDT (100 nmol - 1 umol),Reagentes laboratoriais,"qPCR, ddPCR",IDT,COR100016,"Sonda PrimeTime™ IDT (100 nmol – 1 µmol)
+
+Código do produto: COR100016 - Custom (IDT)
+
+Sondas PrimeTime™ qPCR Probes são probes de 5′ nuclease para qPCR em tempo real, customizáveis em escalas de 100 nmol a 1 µmol, HPLC-purificadas e com controle de qualidade por espectrometria de massas (ESI-MS) conforme publicado pela IDT, com traços de QC disponíveis para download após pedido. PrimeTime™ oferece combinações de repórter/quencher compatíveis com instrumentos comuns de qPCR, incluindo dyes como FAM (520 nm), SUN™ (554 nm), HEX (555 nm), TET (539 nm), JOE (555 nm) e Cy®5 (668 nm), e quencher/IP internal systems como ZEN™ + Iowa Black™ FQ ou TAO™ + Iowa Black™ RQ, permitindo probes dupla-quenched para menor fluorescência de fundo, menor Cq e maior sinal final (especialmente útil em multiplex e alvos AT-rich). A plataforma suporta formas single-quenched ou double-quenched e opções de dyes license-free, com emissões adequadas para multiplexing sem sobreposição espectral significativa.",https://www.idtdna.com/pages/products/qpcr-and-pcr/gene-expression/primetime-qpcr-probes,\Imagens\produtos\Rabbit.jpg,T
+Sonda De Hidrólise Customizada IDT (100 nmol - 10 umol),Reagentes laboratoriais,"qPCR, ddPCR",IDT,COR100016,"Sonda De Hidrólise Customizada IDT (100 nmol - 10 umol)
+
+Código do produto: COR100016 - Custom (IDT)
+
+Sondas de hidrólise para qPCR são probes de 5′ nuclease para qPCR em tempo real, customizáveis em escalas de 100 nmol a 10 µmol, HPLC-purificadas e com controle de qualidade por espectrometria de massas (ESI-MS) conforme publicado pela IDT, com traços de QC disponíveis para download após pedido. PrimeTime™ oferece combinações de repórter/quencher compatíveis com instrumentos comuns de qPCR, incluindo dyes como FAM (520 nm), SUN™ (554 nm), HEX (555 nm), TET (539 nm), JOE (555 nm) e Cy®5 (668 nm), e quencher/IP internal systems como ZEN™ + Iowa Black™ FQ ou TAO™ + Iowa Black™ RQ, permitindo probes dupla-quenched para menor fluorescência de fundo, menor Cq e maior sinal final (especialmente útil em multiplex e alvos AT-rich). A plataforma suporta formas single-quenched ou double-quenched e opções de dyes license-free, com emissões adequadas para multiplexing sem sobreposição espectral significativa.",https://www.idtdna.com/pages/products/qpcr-and-pcr/gene-expression/primetime-qpcr-probes,\Imagens\produtos\invitek.jpg,F
+Ensaio PrimeTime™ IDT (2 primers + 1 Sonda),Reagentes laboratoriais,"qPCR, ddPCR",IDT,COR100006,"Ensaio PrimeTime™ IDT (2 primers + 1 sonda)
+
+Código do produto: COR100006 — Custom
+
+Ensaio completo para qPCR baseado em sonda de hidrólise (5′ nuclease), fornecido como conjunto integrado contendo dois primers e uma sonda. Os oligonucleotídeos passam por controle de qualidade individual por espectrometria de massas (ESI-MS), com dados disponíveis no histórico do pedido. Compatível com os principais fluoróforos utilizados em qPCR, incluindo FAM™, HEX™, SUN™, TET™, JOE™ e Cy5™, associados a sistemas de duplo quencher (ZEN™ ou TAO™ combinados com Iowa Black™ FQ ou RQ), reduzindo fluorescência basal e melhorando a relação sinal/ruído, inclusive em ensaios multiplex. Disponível nos formatos Mini, Standard (Std) e XL, adequados a diferentes volumes de reação e necessidades de escalonamento experimental.",https://www.idtdna.com/pages/products/qpcr-and-pcr/custom-probes/custom-probe-based-qpcr-assays,\Imagens\produtos\1001136100.jpg,T
+gBlocks™ - Fragmentos de Gene IDT (125-3000 bases),Reagentes laboratoriais,"PCR, qPCR, NGS, ddPCR",IDT,COR100014,"gBlocks™ – Fragmentos de Gene IDT (125–3000 bases)
+
+Código do produto: COR100014 — Custom
+
+Fragmentos sintéticos de DNA fita dupla (dsDNA) fornecidos como DNA linear, com comprimentos entre 125 e 3000 pares de bases e taxa mediana de erro < 1:5000. O controle de qualidade padrão inclui verificação de tamanho por eletroforese capilar (capillary electrophoresis). Existe opção de serviço adicional de QC/relatório (liberação de documentação quando contratado), adequado para ambientes que precisam formalizar rastreabilidade do lote.",https://www.idtdna.com/pages/products/genes-and-gene-fragments/double-stranded-dna-fragments/gblocks-gene-fragments,\Imagens\produtos\G1245-500G.jpg,T
+Ultrâmero™ de DNA (45–200 bases),Reagentes laboratoriais,"PCR, qPCR, ddPCR",IDT,COR100014,"Ultrâmero™ de DNA (45–200 bases)
+
+Código do produto: COR100014 — Custom
+
+Oligonucleotídeos de DNA fita simples com comprimentos estendidos de 45 a 200 bases, fabricados com química proprietária para maximizar a fração de produto full-length. Cada Ultramer™ é acompanhado de controle de qualidade por ESI-MS, com documentação disponível, sendo indicado para mutagênese, templates longos, controles sintéticos e aplicações que exigem alta precisão em oligos longos.",https://www.idtdna.com/pages/products/custom-dna-rna/dna-oligos/ultramer-dna-oligos,\Imagens\produtos\M1363-500G.jpg,F
+Gene Sintético (plasmídeo. 25-5000pb),Reagentes laboratoriais,"PCR, qPCR",IDT,COR100014,"Gene Sintético (plasmídeo, 25–5000 pb)
+
+Código do produto: COR100014 — Custom
+
+Genes sintéticos customizados fornecidos em vetor plasmidial, com tamanhos entre 25 e 5000 pares de bases. Estão disponíveis vetores de clonagem (pUCIDT) e vetores de expressão (pET-IDT), permitindo flexibilidade conforme a aplicação downstream. Todos os construtos passam por verificação completa por sequenciamento de nova geração (NGS). O fornecimento inclui arquivo FASTA validado, mapa plasmidial e relatório de controle de qualidade, assegurando fidelidade total da sequência para expressão gênica, estudos funcionais e validação molecular.",https://www.idtdna.com/pages/products/genes-and-gene-fragments/custom-gene-synthesis,\Imagens\produtos\invitek.jpg,F
+Ensaios PrimeTime™ Gene Expression,Reagentes laboratoriais,"qPCR, ddPCR",IDT,COR100006,"Ensaios PrimeTime™ Gene Expression
+
+Código do produto: COR100006 — Custom
+
+Ensaios de qPCR para análise de expressão gênica, fornecidos como ensaios pré-desenhados (primers + sondas), disponíveis para humano, camundongo e rato. Os ensaios são projetados para alta eficiência e especificidade, reduzindo a necessidade de otimização experimental. Compatíveis com multiplexação, são disponibilizados com sondas marcadas com FAM™, SUN™, Texas Red™ e Cy5™, utilizando sistemas de duplo quencher para menor fluorescência basal e maior precisão quantitativa. Entregues como sistemas completos, permitem integração direta a workflows de qPCR já estabelecidos para estudos de expressão gênica quantitativa.",https://www.idtdna.com/page/products/qpcr-and-pcr/predesigned-pcr-based-assays/primetime-gene-expression-assays,\Imagens\produtos\AL006A-500ML.jpg,F
+Ensaios PrimeTime™ Pathogen Research Panels,Reagentes laboratoriais,"qPCR, ddPCR",IDT,COR100006,"Ensaios PrimeTime™ Pathogen Research Panels
+
+Código do produto: COR100006 — Custom
+
+Painéis de pesquisa para detecção molecular de patógenos, compostos por ensaios pré-desenhados (primers + sondas) prontos para qPCR. O portfólio total inclui 211 alvos, compartilhados com os painéis de saúde sexual, distribuídos em múltiplas categorias de patógenos. Estão disponíveis alvos amplamente utilizados em pesquisa, como SARS-CoV-2, Influenza A e B, RSV, Dengue, Zika, Chikungunya, HPV, Chlamydia trachomatis e Neisseria gonorrhoeae. Os ensaios são compatíveis com multiplex, oferecidos com sondas marcadas com FAM™, SUN™, Texas Red™ e Cy5™, e entregues como sistemas completos, reduzindo tempo de implementação e padronização do ensaio.",https://www.idtdna.com/page/products/qpcr-and-pcr/predesigned-pcr-based-assays/primetime-pathogen-research-panels,\Imagens\produtos\AL028A.jpg,F
+Ensaios PrimeTime™ Sexual Health Research Panels,Reagentes laboratoriais,"qPCR, ddPCR",IDT,COR100006,"Ensaios PrimeTime™ Sexual Health Research Panels
+
+Código do produto: COR100006 — Custom
+
+Painéis de pesquisa voltados à saúde sexual, compostos por ensaios pré-desenhados (primers + sondas) que integram o conjunto total de 211 alvos PrimeTime™. Abrangem alvos relevantes associados a infecções sexualmente transmissíveis, incluindo HPV (alto e baixo risco), Chlamydia trachomatis, Neisseria gonorrhoeae, Mycoplasma genitalium, Trichomonas vaginalis e agentes relacionados a UTI. Os ensaios são compatíveis com multiplexação, disponibilizados com sondas marcadas com FAM™, SUN™, Texas Red™ e Cy5™, e entregues como sistemas completos, permitindo integração direta a workflows de qPCR já estabelecidos.",https://www.idtdna.com/page/products/qpcr-and-pcr/predesigned-pcr-based-assays/primetime-sexual-health-research-panels,\Imagens\produtos\TCL280-500ML.JPG,F
+Alt-R™ CRISPR-Cas9 crRNA,Reagentes laboratoriais,CRISPR,IDT,COR100018,"Alt-R™ CRISPR-Cas9 crRNA (2, 10, 50 nmol)
+
+Código do produto: COR100018 — Custom
+Oligonucleotídeo de RNA target-specific para o formato 2-part gRNA, desenhado para ser duplexado com o tracrRNA antes da formação do complexo RNP com Cas9. Os crRNAs Alt-R são otimizados e encurtados (35–36 nt), contendo o protospacer de 19–20 nt e o domínio de fusão com tracrRNA (16 nt), com recomendação de 20 nt para a maioria das aplicações. São sintetizados com modificações químicas proprietárias para aumentar resistência a RNases e sustentar desempenho on-target; existe a variante crRNA XT com modificações adicionais para condições mais desafiadoras (ex.: ambientes com alta nuclease ou uso com Cas9 mRNA).",https://www.idtdna.com/pages/products/crispr-genome-editing/alt-r-crispr-cas9-system,\Imagens\produtos\MH033-500G.jpg,F
+Alt-R™ CRISPR-Cas9 sgRNA,Reagentes laboratoriais,CRISPR,IDT,COR100014,"Alt-R™ CRISPR-Cas9 sgRNA (2, 10, 50 nmol)
+
+Código do produto: COR100014 — Custom
+Guia único (single guide) em uma única molécula, unificando as regiões de crRNA e tracrRNA para simplificar o workflow (menos componentes no preparo do RNP). São oligos longos de 99–100 bases, compostos por protospacer de 19–20 nt acoplado a uma região universal de ~80 bases, e incluem modificações químicas voltadas à estabilidade e resistência a nucleases (especialmente úteis em condições desafiadoras). Disponível com dessalinização padrão ou purificação por HPLC, conforme necessidade de performance/robustez experimental.",https://www.idtdna.com/pages/products/crispr-genome-editing/alt-r-crispr-cas9-system,\Imagens\produtos\TCL280-500ML.JPG,F
+"Alt-R™ CRISPR-Cas9 tracrRNA, 5 nmol",Reagentes laboratoriais,CRISPR,IDT,1072532,"Alt-R™ CRISPR-Cas9 tracrRNA (5 nmol)
+
+Código do produto: 1072532
+tracrRNA universal de 67 nt (mais curto que o tracrRNA “clássico” de 89 bases), desenhado para melhorar o desempenho on-target quando hibridizado ao crRNA no sistema Alt-R™. Contém modificações químicas proprietárias que aumentam a resistência a nucleases/RNases, elevando a estabilidade funcional em aplicações de edição gênica. Especificações de QC/lote incluem pureza analítica por RP-HPLC (>70% produto full-length), critério de desempenho funcional conforme user guide e armazenamento a −20 °C (recipiente selado).",https://www.idtdna.com/pages/products/crispr-genome-editing/alt-r-crispr-cas9-system,\Imagens\produtos\invitek.jpg,F
+"Alt-R™ S.p. Cas9 Nuclease V3, 100 µg",Reagentes laboratoriais,CRISPR,IDT,1081058,"Alt-R™ S.p. Cas9 Nuclease V3 (100 µg)
+
+Código do produto: 1081058
+Nuclease recombinante de Streptococcus pyogenes (SpCas9), descrita como a opção “padrão” para edição gênica geral. Fornecida como proteína de alta pureza, contendo sequências de localização nuclear (NLS) e tag C-terminal 6-His, devendo ser combinada com um gRNA (crRNA:tracrRNA ou sgRNA) para formar o complexo RNP ativo e específico para o alvo. QC do produto contempla teste de performance funcional e recomendação de armazenamento a −20 °C (recipiente selado), com política publicada de garantia por 6 meses após o recebimento.",https://www.idtdna.com/pages/products/crispr-genome-editing/alt-r-crispr-cas9-system,\Imagens\produtos\TCL280-500ML.JPG,F
+"Alt-R™ S.p. HiFi Cas9 Nuclease V3, 100 µg",Reagentes laboratoriais,CRISPR,IDT,1081060,"Alt-R™ S.p. HiFi Cas9 Nuclease V3 (100 µg)
+
+Código do produto: 1081060
+Variante high-fidelity de SpCas9 voltada a aplicações que exigem maior especificidade, com redução do risco de cortes off-target mantendo alta eficiência on-target (referência publicada de ~90–100% de atividade on-target na maioria dos sítios). Indicada para uso em complexo RNP com gRNA otimizado, preservando desempenho de edição enquanto aumenta a precisão do corte. QC/armazenamento seguem o padrão do sistema: teste de performance funcional, armazenamento a −20 °C (recipiente selado) e garantia publicada por 6 meses após o recebimento.",https://www.idtdna.com/pages/products/crispr-genome-editing/alt-r-crispr-cas9-system,\Imagens\produtos\rabbits2.jpg,F
+Alt-R™ A.s. Cas12a crRNA,Reagentes laboratoriais,CRISPR,IDT,COR100018,"Alt-R™ A.s. Cas12a crRNA (2, 10 nmol)
+
+Código do produto: COR100018 — Custom
+crRNA otimizado para complexação direta com Cas12a (formato crRNA:Cas12a, sem necessidade de tracrRNA), suportando edição em regiões adicionais do genoma via reconhecimento do PAM TTTV (alvos em regiões AT-rich). Trata-se de um guide RNA 40–44 bases, composto por uma região constante (loop) de 20 bases e uma região target-specific (protospacer) de 20–24 bases (recomendação típica: 21 bases). As sequências são sintetizadas com modificações proprietárias para proteção contra RNases e melhor performance funcional; ao inserir o alvo no sistema de pedido, o restante da sequência e as modificações necessárias são adicionados automaticamente para completar o crRNA Alt-R.",https://www.idtdna.com/pages/products/crispr-genome-editing/alt-r-crispr-cpf1-genome-editing,\Imagens\produtos\MB554-20PR.JPG,F
+Alt-R™ L.b. Cas12a crRNA,Reagentes laboratoriais,CRISPR,IDT,COR100018,"Alt-R™ L.b. Cas12a crRNA (2, 10 nmol)
+
+Código do produto: COR100018 — Custom
+crRNA Alt-R para complexação direta com Cas12a, no mesmo racional de simplicidade operacional (sem tracrRNA) e com desenho baseado no PAM TTTV, no qual o crRNA reconhece ~21–24 bases do DNA na fita oposta ao PAM. Mantém o formato Alt-R 40–44 bases (20 bases constantes + 20–24 bases target-specific) e é entregue com modificações químicas proprietárias para estabilidade em ambiente celular e maior resistência a RNases, favorecendo reprodutibilidade em entrega como RNP.",https://www.idtdna.com/pages/products/crispr-genome-editing/alt-r-crispr-cpf1-genome-editing,\Imagens\produtos\MB580-20PR.JPG,F
+"Alt-R™ A.s. Cas12a (Cpf1) V3, 100 µg",Reagentes laboratoriais,CRISPR,IDT,1081068,"Alt-R™ A.s. Cas12a (Cpf1) V3 (100 µg)
+
+Código do produto: 1081068
+Nuclease recombinante de alta pureza de Acidaminococcus sp. BV3L6 (Cas12a/Cpf1), indicada para edição gênica em regiões AT-rich quando o PAM típico de Cas9 (NGG) limita o desenho. Forma um complexo RNP ativo quando combinada com crRNA (não requer tracrRNA) e gera quebra com overhang 5′ (staggered cut). Possui NLS para desempenho em células eucarióticas e tag C-terminal 6-His; recomendação do fabricante é testar ≥3 crRNAs por alvo devido à variabilidade de clivagem em sítios TTTV. Armazenamento: −20 °C (recipiente selado).",https://www.idtdna.com/pages/products/crispr-genome-editing/alt-r-crispr-enzymes/cas12a-protein,\Imagens\produtos\MB530-20PR.JPG,F
+"Alt-R™ L.b. Cas12a (Cpf1) Ultra, 100 µg",Reagentes laboratoriais,CRISPR,IDT,10007922,"Alt-R™ L.b. Cas12a (Cpf1) Ultra (100 µg)
+
+Código do produto: 10007922
+Nuclease Cas12a “Ultra” para formação de complexo RNP com crRNA (sem tracrRNA), projetada para potência on-target superior em comparação ao Cas12a A.s. wild-type e para ampliar o espaço de alvos via reconhecimento de PAM TTTN (incluindo muitos sítios TTTT, além de TTTV). Mantém o mecanismo típico de Cas12a com staggered cut e overhang 5′ e é descrita como ativa em temperatura ambiente, aumentando a flexibilidade em aplicações que exigem entrega em condições mais baixas de temperatura.",https://www.idtdna.com/pages/products/crispr-genome-editing/alt-r-crispr-enzymes/cas12a-protein,\Imagens\produtos\MB619-20PR.JPG,F
+TriFECTa® RNAi Kit,Reagentes laboratoriais,Regulação Gênica,IDT,COR100002,"TriFECTa® RNAi Kit
+
+Código do produto: COR100002 — Predesigned
+Kit completo para silenciamento gênico por RNAi baseado em Dicer-Substrate siRNAs (DsiRNAs), entregue com todos os controles críticos para padronização. Inclui 3 DsiRNAs alvo-específicos (2 nmol cada), controle negativo DS NC1 (não reconhece sequências de humano/camundongo/rato), controle positivo HPRT-S1 e controle fluorescente de transfecção TYE™ 563, além de Nuclease-Free Duplex Buffer para ressuspensão e preparo. O kit não inclui primers/reagentes de qPCR para quantificação do knockdown (monitoramento é feito com ensaio separado). Traz garantia de desempenho: sob condições definidas (ex.: 10 nM, leitura por qRT-PCR e transfecção >90% indicada pelo controle fluorescente), ≥2 dos 3 DsiRNAs atingem ≥70% de redução do mRNA alvo.",https://www.idtdna.com/pages/products/functional-genomics/dsirnas-and-trifecta-rnai-kits#product-details,\Imagens\produtos\MB618-20PR.JPG,F
+DsiRNA (2 - 10nmol),Reagentes laboratoriais,Regulação Gênica,IDT,COR100014,"DsiRNA (Dicer-Substrate siRNA)
+
+Código do produto: COR100014 — Custom
+Duplex de RNA 27-mer (DsiRNA), desenhado para processamento otimizado por Dicer, explorando a via natural de carregamento em RISC e, por isso, frequentemente entregando maior potência vs siRNA tradicional de 21-mer. Fornecido duplexado e seco, exigindo apenas ressuspensão (sem necessidade de annealing). Disponível em escalas 2 nmol e 10 nmol (tubos; formato em placa sob consulta), com portfólio e fluxos de pedido suportados por ferramentas de design/seleção do próprio fabricante.",https://www.idtdna.com/pages/products/functional-genomics/dsirnas-and-trifecta-rnai-kits,\Imagens\produtos\MB571-20PR.JPG,F
+Inibidores de miRNA,Reagentes laboratoriais,Regulação Gênica,IDT,COR100014,"Inibidores de miRNA
+
+Código do produto: COR100014 — Custom
+Oligonucleotídeos single-strand antisense para bloqueio estérico: hibridizam de forma complementar ao miRNA maduro e impedem sua função (formação de duplex que evita interação do miRNA com o alvo). A química é baseada em 2′-O-metil (2′OMe) para aumentar afinidade e resistência a endonucleases, com modificações ZEN™ para bloquear exonucleases e elevar estabilidade global. Otimizados para alta potência em baixas concentrações (faixa de nM), com foco em especificidade e baixa toxicidade em células. O fluxo de pedido é guiado por ferramenta de design (ex.: entrada direta da sequência madura a partir de bases como miRBase, com conversão automática para o oligo complementar com as modificações).",https://www.idtdna.com/pages/products/functional-genomics/mirna-inhibitors,\Imagens\produtos\MB544-20PR.JPG,F
+xGen™ DNA Library Prep EZ 96rxn,Reagentes laboratoriais,NGS,IDT,10009821,"xGen™ DNA Library Prep EZ (96 rxn)
+
+Código do produto: 10009821
+Kit de preparo de biblioteca para dsDNA com fragmentação enzimática, suportando ampla faixa de entrada (~100 pg a 1 µg), com workflow otimizado para bibliotecas destinadas a WGS e/ou xGen Hybridization Capture. Inclui xGen™ Stubby Y Adapters para indexação por PCR com primers TruSeq-compatíveis (indexação adquirida separadamente) e recomendações objetivas de ciclos mínimos de amplificação conforme input (ex.: ≥100 ng: 3 ciclos; 25 ng: 5; 10 ng: 7; 1 ng: 10). Armazenamento recomendado a −20 °C (enzimas sensíveis à temperatura).",https://www.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-library-preparation/dna-library-preparation/dna-library-prep-kit,\Imagens\produtos\MB542-20PR.JPG,F
+xGen™ RNA Library Prep 96rxn,Reagentes laboratoriais,NGS,IDT,10009814,"xGen™ RNA Library Prep (96 rxn)
+
+Código do produto: 10009814
+
+Kit de preparo de bibliotecas para RNA-seq stranded em plataformas Illumina®, com workflow rápido (~3,5 h) que constrói a biblioteca diretamente a partir da 1ª fita de cDNA, sem necessidade de síntese/degradação da 2ª fita e sem métodos de template-switching. Utiliza a tecnologia proprietária Adaptase™ tailing + ligation para adicionar o adaptador (R2 Stubby) ao 3’ do cDNA de 1ª fita, mantendo strandedness ≥97%. Suporta ampla faixa de entrada: 100 ng a 1 µg de RNA total e 5–100 ng de mRNA, com compatibilidade declarada para RNA total, mRNA poly(A)-enriquecido e RNA ribo-depletado. Inclui módulos completos do fluxo (fragmentação, RT e library prep) e foi desenhado para automação, com ~10% de overage de reagentes fornecida para uso em liquid handlers. Não requer titração de adaptadores dentro dos níveis de input suportados. Armazenamento recomendado a −20 °C; vida útil declarada de ≥6 meses quando armazenado e manuseado conforme o protocolo.",https://www.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-library-preparation/rna-library-preparation/rna-library-prep-kit,\Imagens\produtos\Rabbit.jpg,F
+"xGen™ UDI Primers Plate 1, 8nt",Reagentes laboratoriais,NGS,IDT,10005922,"xGen™ UDI Primers Plate 1 (8 nt)
+
+Código do produto: 10005922
+Placa “legacy” de Unique Dual Indexing (UDI) 8 nt em formato 96 poços, com pares de primers de indexação por poço para multiplexação em plataformas Illumina. Recomendação importante: não misturar este conjunto com outras placas 8 nt de UDI (ex.: Plate 2), por se tratarem de conjuntos “legados” distintos.",https://www.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-library-preparation/ngs-adapters-indexing-primers/adapters-indexing-primers-for-illumina,\Imagens\produtos\Rabbit.jpg,F
+xGen™ UDI 10nt Primer Plates 1-4,Reagentes laboratoriais,NGS,IDT,10008052,"xGen™ UDI 10nt Primer Plates 1–4
+
+Código do produto: 10008052
+Conjunto de primers UDI em código de barras 10 nt projetado para alta plexidade, com foco em distância de edição adequada entre índices para reduzir risco de colisões/ambiguidade de indexação. Formato em placas “single-use” com selo perfurável, onde cada poço entrega um par específico de índices para indexar uma amostra, suportando estratégias de multiplexação em larga escala (conjuntos 1–4).",https://www.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-library-preparation/ngs-adapters-indexing-primers/adapters-indexing-primers-for-illumina,\Imagens\produtos\invitek.jpg,F
+"xGen Custom Hyb Panel, 16-96 rxn",Reagentes laboratoriais,NGS,IDT,COR100006,"xGen Custom Hyb Panel (16–96 rxn)
+
+Código do produto: COR100006 — Custom
+Painel customizado de captura por hibridização para NGS, composto por sondas (probes) 5′-biotiniladas, sintetizadas individualmente com alta fidelidade e fornecidas como pool equimolar (mesma concentração molar de cada probe), favorecendo representação balanceada no produto final. O desenho é triado contra off-targets por um método proprietário de QC bioinformático baseado em identidade de sequência, permitindo expandir o espaço alvo sem elevar o risco de captura inespecífica. Entrega típica em até ~3 semanas e inclui NGS Functional Test Report com métricas específicas de captura para confirmação de desempenho do painel. Otimizado para uso com os reagentes do ecossistema xGen (Hybridization & Wash, Universal Blockers e Library Amplification Primer Mix).",https://www.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-hybridization-capture/custom-hyb-panels,\Imagens\produtos\1001136100.jpg,F
+"xGen Custom Hyb Panel - Accel, 16-96 rxn",Reagentes laboratoriais,NGS,IDT,COR100006,"xGen Custom Hyb Panel – Accel (16–96 rxn)
+
+Código do produto: COR100006 — Custom
+
+Versão acelerada do painel customizado de captura por hibridização para NGS, composto por sondas (probes) 5′-biotiniladas sintetizadas individualmente e direcionadas ao alvo definido pelo usuário. Projetado para prazo máximo de entrega, com turnaround em até 5 dias úteis (após finalização do design; referência publicada para painéis até 50.000 probes). O desenho é triado contra off-targets por um método proprietário de QC bioinformático baseado em identidade de sequência, visando reduzir captura inespecífica. Otimizado para uso com o ecossistema xGen (Hybridization & Wash, Universal Blockers e Library Amplification Primer Mix) em workflows de captura por hibridização. Observação publicada pelo fabricante: nesta opção não é fornecido o NGS Functional Test Report.",https://www.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-hybridization-capture/custom-hyb-panels,\Imagens\produtos\G1245-500G.jpg,F
+"xGen™ Exome Hyb Panel v2, 16 rxn",Reagentes laboratoriais,NGS,IDT,10005152,"xGen™ Exome Hyb Panel v2 (16 rxn)
+
+Código do produto: 10005152
+Painel de captura por hibridização para whole exome com algoritmo target-aware para minimizar off-target e maximizar cobertura de regiões codificantes, com desempenho desenhado para alta taxa on-target mesmo em captura multiplex (ex.: 12-plex). Abrange ~34 Mb do genoma humano e é composto por 415.115 sondas sintetizadas individualmente, com fabricação em sistema de qualidade (ex.: ISO 13485/GMP, conforme materiais do produto).",https://www.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-hybridization-capture/pre-designed-hyb-cap-panels/exome-hyb-panel-v2,\Imagens\produtos\M1363-500G.jpg,F
+"xGen™ Human mtDNA Hyb Panel, 16 rxn",Reagentes laboratoriais,NGS,IDT,1075705,"xGen™ Human mtDNA Hyb Panel (16 rxn)
+
+Código do produto: 1075705
+Painel de captura para enriquecimento de DNA mitocondrial humano (mtDNA), aplicável como spike-in a painéis de captura existentes sem comprometer a taxa on-target do painel “receptor”, e com exemplo de cobertura uniforme nas regiões alvo. Disponibiliza arquivos de painel/alvos (BED) e certificados de análise por lote.",https://www.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-hybridization-capture/pre-designed-hyb-cap-panels/human-mtdna-hyb-panel,\Imagens\produtos\invitek.jpg,F
+"xGen™ CNV Backbone Hyb Panel, 16 rxn",Reagentes laboratoriais,NGS,IDT,1080563,"xGen™ CNV Backbone Hyb Panel (16 rxn)
+
+Código do produto: 1080563
+Painel “backbone” para análise de copy number variation (CNV) por captura, aplicável como standalone ou em conjunto com painéis customizados/predesenhados. Permite identificar alterações estruturais (deleções/duplicações, etc.) e, adicionalmente, apoiar detecção de variantes como SNVs e indels, com arquivos BED de probes e SNPs alvo disponibilizados.",https://www.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-hybridization-capture/pre-designed-hyb-cap-panels/human-cnv-backbone-hyb-panel,\Imagens\produtos\AL006A-500ML.jpg,F
+"xGen™ Hybridization and Wash Reagents v3, 16 rxn",Reagentes laboratoriais,NGS,IDT,10028311,"xGen™ Hybridization and Wash Reagents v3 (16 rxn)
+
+Código do produto: 10028311
+Conjunto de tampões/reagentes para captura por hibridização otimizado para o ecossistema xGen, com formulação v3 voltada a reduzir vieses do processo de hibridização/captura/lavagens e melhorar o balanço AT/GC em comparação a versões anteriores. Indicação de armazenamento: parte dos reagentes a −20 °C (ex.: Hybridization buffer), e wash buffers conforme orientação do protocolo (com pontos de pausa “safe stopping points”).",https://www.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-hybridization-capture/hybridization-capture-core-reagents,\Imagens\produtos\AL028A.jpg,F
+"xGen™ Hybridization and Wash Beads v3, 16 rxn",Reagentes laboratoriais,NGS,IDT,10025272,"xGen™ Hybridization and Wash Beads v3 (16 rxn)
+
+Código do produto: 10025272
+Beads de captura (streptavidina) para a etapa de pull-down na captura por hibridização xGen v3. Armazenamento típico a 4 °C e preparo recomendado até ~2 h antes do uso, com ressuspensão completa imediatamente antes da alíquota para maximizar consistência de captura.",https://www.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-hybridization-capture/hybridization-capture-core-reagents,\Imagens\produtos\TCL280-500ML.JPG,F
+"xGen™ Universal Blockers TS, 16 rxn",Reagentes laboratoriais,NGS,IDT,1075474,"xGen™ Universal Blockers TS (16 rxn)
+
+Código do produto: 1075474
+Oligos bloqueadores para reduzir hibridização inespecífica em captura, desenhados para bibliotecas ligation-based TruSeq-style com esquemas de índices 6–8 bases (single/dual). A aplicação típica é bloquear sequências de adaptadores, aumentando leituras on-target e profundidade efetiva de enriquecimento.",https://www.idtdna.com/site/order/stock/partnbr/1075474,\Imagens\produtos\MH033-500G.jpg,F
+"	xGen™ Universal Blockers 10bp TS, 16 rxn",Reagentes laboratoriais,NGS,IDT,1081100,"xGen™ Universal Blockers 10bp TS (16 rxn)
+
+Código do produto: 1081100
+Oligos bloqueadores para captura por hibridização compatíveis com bibliotecas ligation-based que utilizam dual-indexing 10 bp (TruSeq-style), com o mesmo racional de bloquear adaptadores para elevar on-target e robustez em capturas multiplexadas.",https://www.idtdna.com/site/order/stock/partnbr/1081100,\Imagens\produtos\TCL280-500ML.JPG,F
+"xGen™ Library Amplification Primer Mix, 16 rxn",Reagentes laboratoriais,NGS,IDT,1077675,"xGen™ Library Amplification Primer Mix (16 rxn)
+
+Código do produto: 1077675
+Mistura de primers para amplificação de bibliotecas no workflow xGen, com controle de qualidade documentado em COA (ex.: pureza por eletroforese capilar >85%, confirmação por ESI das espécies de primers e critério funcional de eficiência de PCR 90–110% e NTC Cq >40). Listado como primer mix do ecossistema de adaptadores/índices xGen para workflows Illumina-compatíveis.",https://www.idtdna.com/site/order/stock/partnbr/1077675,\Imagens\produtos\invitek.jpg,F
+"xGen™ Human Cot DNA, 150 µL",Reagentes laboratoriais,NGS,IDT,1080768,"xGen™ Human Cot DNA (150 µL)
+
+Código do produto: 1080768
+DNA Cot humano para bloqueio de sequências repetitivas durante captura por hibridização; utilizado para melhorar especificidade/eficiência do enriquecimento. COA com especificação típica de concentração ~1,0–1,2 mg/mL e A260/A280 1,8–2,1, com armazenamento recomendado a −20 °C.",https://www.idtdna.com/site/order/stock/partnbr/1080768,\Imagens\produtos\TCL280-500ML.JPG,F
+Artic V5.3.2 NCOV-2019 Panel,Reagentes laboratoriais,NGS,IDT,10016495,"ARTIC V5.3.2 NCOV-2019 Panel
+
+Código do produto: 10016495
+Painel de amplicons para sequenciamento de SARS-CoV-2 (parceria com ARTIC Network), composto por 98 primers em dois pools para amplificação do genoma viral;  Amplicons com média de ~400 bp, com recomendação de 2×250 em sequenciadores Illumina para cobertura adequada. Especificação publicada: para amostras com Ct <30, reporta ~99,7% de cobertura (99 amplicons contíguos; coordenadas 50–29.827).",https://www.idtdna.com/pages/products/next-generation-sequencing/workflow/xgen-ngs-amplicon-sequencing/predesigned-amplicon-panels/artic-sc2-amp-panel,\Imagens\produtos\rabbits2.jpg,F
+T100 Thermal Cycler,Equipamentos,PCR,Bio-Rad,1861096,"T100 Thermal Cycler
+
+Código do produto: 1861096
+
+Termociclador para PCR convencional com bloco de 96 poços, equipado com gradiente térmico em 8 colunas, permitindo otimização simultânea de primers e condições de anelamento em uma única corrida. Apresenta uniformidade térmica precisa, controle independente por coluna e interface touchscreen colorida, facilitando uso em rotinas de PCR, padronizações e ensino. Compatível com tubos e placas padrão de 0,2 mL, é indicado para laboratórios que buscam robustez, simplicidade operacional e confiabilidade térmica.",https://www.bio-rad.com/pt-br/product/t100-thermal-cycler?ID=LGTWGIE8Z,\Imagens\produtos\MB554-20PR.JPG,F
+PTC Tempo 96 Thermal Cycler,Equipamentos,PCR,Bio-Rad,12015382,"PTC Tempo 96 Thermal Cycler
+
+Código do produto: 12015382
+
+Termociclador de alto desempenho com bloco fixo de 96 poços (0,2 mL) e controle térmico projetado para máxima reprodutibilidade. Apresenta precisão térmica de ±0,2 °C em relação ao valor programado (referência a 90 °C) e uniformidade térmica de ±0,4 °C poço-a-poço, atingida em até 10 s após chegar a 90 °C. Possui gradiente programável em 8 linhas, com amplitude de 1–24 °C (faixa operacional do gradiente: 30–100 °C), acelerando padronizações e reduzindo retrabalho experimental. Compatível com placas low-profile de saia completa e com conectividade BR.io (além de Wi-Fi/Ethernet/USB), permitindo gestão multiusuário e integração com ambiente digital do laboratório.",https://www.bio-rad.com/pt-br/sku/12015382-ptc-tempo-96-thermal-cycler?ID=12015382,\Imagens\produtos\MB580-20PR.JPG,F
+PTC Tempo Deepwell Thermal Cycler,Equipamentos,PCR,Bio-Rad,12015392,"PTC Tempo Deepwell Thermal Cycler
+
+Código do produto: 12015392
+
+Termociclador de alto desempenho projetado para placas deepwell, permitindo volumes de reação elevados sem comprometer a qualidade térmica. Possui precisão térmica de ±0,2 °C em relação ao valor programado (a 90 °C) e uniformidade térmica poço-a-poço de ±0,4 °C, atingida rapidamente após estabilização do bloco. Incorpora gradiente programável em 8 linhas, com amplitude de 1–24 °C (faixa de gradiente entre 30–100 °C), acelerando padronizações mesmo em protocolos de maior volume. Compatível com placas deepwell de 96 poços, integra conectividade BR.io (Wi-Fi, Ethernet e USB), possibilitando monitoramento remoto, gestão multiusuário e rastreabilidade operacional em ambientes de alta demanda.",https://www.bio-rad.com/pt-br/sku/17009656-ptc-tempo-deepwell-thermal-cycler-for-food-applications?ID=17009656,\Imagens\produtos\MB530-20PR.JPG,F
+CFX Opus 96 Real-Time PCR System,Equipamentos,qPCR,Bio-Rad,17007992,"CFX Opus 96 Real-Time PCR System
+
+Código do produto: 17007992
+
+Sistema de qPCR em tempo real com bloco fixo de 96 poços (0,2 mL), projetado para alta reprodutibilidade analítica. Apresenta precisão térmica de ±0,2 °C e uniformidade poço-a-poço de ±0,3 °C, assegurando consistência entre corridas e entre amostras dentro da mesma placa. O sistema óptico utiliza excitação por LEDs de longa vida útil e detecção baseada em fotodiodos, com 6 canais ópticos independentes, permitindo análise robusta de SYBR Green e sondas de hidrólise multiplexadas. É compatível com os principais fluoróforos utilizados em qPCR, incluindo FAM™, HEX™, ROX™, Texas Red™, Cy5™ e Cy5.5™, garantindo flexibilidade para ensaios singleplex e multiplex. Oferece ampla faixa dinâmica de até 10 logs, elevada sensibilidade para detecção de alvos de baixa abundância e discriminação espectral precisa, reduzindo crosstalk entre fluoróforos. Integra-se nativamente ao software CFX Maestro, que centraliza aquisição, análise quantitativa, controle de qualidade da corrida e rastreabilidade de dados, atendendo fluxos de pesquisa avançada e aplicações reguladas.",https://www.bio-rad.com/pt-br/sku/17007992-cfx-opus-96-real-time-pcr-system?ID=17007992,\Imagens\produtos\MB619-20PR.JPG,F
+CFX Maestro Software,Equipamentos,qPCR,Bio-Rad,12013758,"CFX Maestro Software
+
+Código do produto: 12013758
+
+Software dedicado à aquisição, análise e gestão de dados de qPCR para sistemas CFX. Permite quantificação absoluta e relativa, análise de curvas padrão, eficiência de amplificação, controle de qualidade da corrida e exportação estruturada de dados. Projetado para ambientes multiusuário, oferece rastreabilidade, organização de projetos e conformidade com fluxos regulados, sendo peça central no ecossistema CFX.",https://www.bio-rad.com/pt-br/product/cfx-maestro-software-for-cfx-real-time-pcr-instruments?ID=OKZP7E15,\Imagens\produtos\MB618-20PR.JPG,F
+QX200 Droplet Digital PCR System,Equipamentos,ddPCR,Bio-Rad,1864001,"QX200 Droplet Digital PCR System
+
+Código do produto: 1864001
+
+Sistema de PCR digital em gotículas (ddPCR) para quantificação absoluta de ácidos nucleicos, baseado na partição da amostra em ~20.000 gotículas por poço. Opera em 2 cores (FAM™ e HEX™), permitindo detecção precisa sem necessidade de curva padrão. A análise estatística é fundamentada na Lei de Poisson, proporcionando alta precisão, reprodutibilidade e sensibilidade para aplicações como CNV, mutações raras, edição gênica, expressão gênica e quantificação de cargas virais. O sistema é composto por gerador de gotículas, termociclador e leitor de gotículas, com workflow consolidado e amplamente validado no mercado de ddPCR.",https://www.bio-rad.com/pt-br/life-science/digital-pcr/qx200-droplet-digital-pcr-system,\Imagens\produtos\MB571-20PR.JPG,F
+QX600 Droplet Digital PCR System,Equipamentos,ddPCR,Bio-Rad,17007769,"QX600 Droplet Digital PCR System
+
+Código do produto: 17007769
+
+Sistema de ddPCR de última geração projetado para multiplexação avançada e maior capacidade operacional. Realiza a partição da amostra em aproximadamente 20.000 gotículas por poço, mantendo a quantificação absoluta baseada na Lei de Poisson, porém com arquitetura óptica de 6 cores, permitindo análise simultânea de múltiplos alvos em uma única reação. É compatível com os principais fluoróforos do mercado, incluindo FAM™, HEX™, ROX™, Texas Red™, Cy5™ e Cy5.5™, viabilizando multiplexação de alta complexidade. O sistema foi desenvolvido para laboratórios de alto throughput, com automação aprimorada, maior produtividade e escalabilidade para aplicações avançadas em oncologia molecular, genômica de precisão e pesquisa translacional.",https://www.bio-rad.com/pt-br/product/qx600-droplet-digital-pcr-system?ID=b07d12ac-0585-fc4c-a586-3ddf20d5c4a0,\Imagens\produtos\MB544-20PR.JPG,F
+QX700 E Droplet Digital PCR System,Equipamentos,ddPCR,Bio-Rad,17011036,"QX700 E Droplet Digital PCR System
+
+Código do produto: 17011036
+
+Sistema de Droplet Digital™ PCR (ddPCR™) para quantificação absoluta de ácidos nucleicos sem necessidade de curvas padrão, com multiplex de 7 cores e workflow simplificado. O instrumento é compacto e ideal para laboratórios de baixa a média demanda, suportando de 16 até 48 amostras por corrida, com volume de entrada típico de 5 µL por partição e partições de aproximadamente 17 000 droplets por bem, gerados automaticamente para posterior leitura digital. A instrumentação integrada (geração de droplets, termociclo e leitura) permite operação “walkaway” com análise intuitiva, produzindo resultados quantitativos robustos em até 2,5 h para uma corrida completa ou cerca de 5 h para 96 amostras extrapoladas. Com 7 canais ópticos independentes, o sistema possibilita multiplexação de alta complexidade, ampliando aplicações em pesquisa molecular, quantificação de cargas virais, detecção de variantes raras e análise de expressão gênica em painéis multialvos.",https://www.bio-rad.com/pt-br/product/qx700-e-droplet-digital-pcr-system?ID=b57da820-ce69-dfb0-e18e-165216d308fd,\Imagens\produtos\MB542-20PR.JPG,F
+GelDoc™ Go Gel Imaging System,Equipamentos,Fotodocumentação,Bio-Rad,12009077,"GelDoc™ Go Gel Imaging System
+
+Código do produto: 12009077
+
+Sistema compacto de imaging para gel que permite aquisição de imagens de alta resolução de géis de DNA e proteínas, com área de captura de até 21 cm × 14 cm e detector CMOS de 6,3 MP para ótima qualidade de imagem. O design óptico avançado possibilita a visualização de até quatro mini-géis simultaneamente em um equipamento de bancada. Inclui Image Lab Touch Software, com recursos de captura automática, análise automática e gerenciamento de usuários, além de suporte a diversos modos de excitação (Trans-UVB padrão, Epi-white e opções Trans-white e Trans-blue) para flexibilidade em aplicações de gelologia e colorimetria. Ideal para rotinas de documentação de gel com rapidez e simplicidade.",https://www.bio-rad.com/pt-br/product/geldoc-go-gel-imaging-system-with-image-lab-touch-software?ID=a8afe220-4936-6fd4-c1b6-65bf9ecf0f2d,\Imagens\produtos\Rabbit.jpg,F
+ChemiDoc™ Go Imaging System,Equipamentos,Fotodocumentação,Bio-Rad,12018025,"ChemiDoc™ Go Imaging System
+
+Código do produto: 12018025
+
+Sistema de imaging multimodal para gel e blot, combinando detecção de fluorescência, quimioluminescência e colorimetria em um formato benchtop. Equipado com detector CMOS avançado (20,48 MP) e Image Lab Touch Software, oferece captura sensível de imagens de géis de DNA, proteínas e western blots, com suporte a tecnologias como StarBright™ Blue (como StarBright 520 e 700) para fluorescência rentável e multiplexada. Opera com Smart Tray Technology para ajuste automático de parâmetros conforme a bandeja de amostra escolhida e inclui modos como auto-foco, auto-exposição e image flat fielding, otimizados para cada aplicação. Compatível com uma ampla gama de necessidades de detecção e análise, mantendo alta sensibilidade e faixa dinâmica em interfaces intuitivas.",https://www.bio-rad.com/pt-br/category/chemidoc-go-imaging-system?ID=a97c1fd5-b7a6-9f68-1f4a-3ace14711b65,\Imagens\produtos\Rabbit.jpg,F
+ChemiDoc™ MP Imaging System,Equipamentos,Fotodocumentação,Bio-Rad,12003154,"ChemiDoc™ MP Imaging System
+
+Código do produto: 12003154
+
+Sistema de imaging completo para gel e western blot que integra fluorescência multiplex (RGB, far-red e near-IR), quimioluminescência, Stain-Free e colorimetria em um único instrumento. Projetado para detecção de múltiplos fluoróforos (incluindo anticorpos secundários StarBright™ e corantes como SYPRO Ruby, Coomassie e prata), permite imaging flexível e sensível de proteínas e ácidos nucleicos em géis e blots. O sistema inclui computador interno, display touchscreen de 12″, Image Lab Touch e Image Lab Software, e Smart Tray Technology que reconhece automaticamente a bandeja de amostras e ajusta os parâmetros de imaging para otimizar resultados. A combinação de sensibilidade alta, amplo espectro de detecção e facilidade de uso o torna adequado para aplicações desde rotina de laboratório até estudos quantitativos avançados.",https://www.bio-rad.com/pt-br/product/chemidoc-mp-imaging-system?ID=NINJ8ZE8Z,\Imagens\produtos\invitek.jpg,F
+PowerPac™ Basic Power Supply,Equipamentos,Eletroforese,Bio-Rad,1645050,"PowerPac™ Basic Power Supply
+
+Código do produto: 1645050
+
+Fonte de alimentação para eletroforese projetada para aplicações básicas, como eletroforese de gel submerso horizontal ou vertical (mini/midi), com potência máxima de 75 W. Fornece saída programável de 10–300 V e 4–400 mA, com modo de saída constante em tensão ou corrente e função de crossover automático que otimiza parâmetros quando limites são alcançados. Permite controle de tempo programável (1 min – 99 h 59 min), função pause/resume e possui display LED de 3 dígitos. Os terminais de saída são pares de conectores banana recuados em paralelo e o design compacto é empilhável, facilitando organização em bancadas de eletroforese.",https://www.bio-rad.com/pt-br/product/powerpac-basic-power-supply?ID=bea5dea1-cef0-43ad-8af5-b2c0287f6e07,\Imagens\produtos\1001136100.jpg,F
+PowerPac™ HC High-Current Power Supply,Equipamentos,Eletroforese,Bio-Rad,1645052,"PowerPac™ HC High-Current Power Supply
+
+Código do produto: 1645052
+
+Fonte de alimentação de alta corrente com capacidade de até 250 V, 3,0 A e 300 W, indicada para aplicações de alta demanda, incluindo eletroforese de alto rendimento e western blotting. Permite programar saída de voltagem (5–250 V), corrente (0,01–3,0 A) ou potência (1–300 W) com incréments ajustáveis finos, além de temporizador integrado (1 min – 99 h 59 min). A programação intuitiva por LCD de 2 linhas por 16 caracteres facilita visualização dos parâmetros, e a unidade possui detecção de condições de falta de carga, sobrecarga e proteção contra curto-circuito.",https://www.bio-rad.com/pt-br/product/powerpac-basic-power-supply?ID=bea5dea1-cef0-43ad-8af5-b2c0287f6e07,\Imagens\produtos\G1245-500G.jpg,F
+PowerPac Universal Power Supply,Equipamentos,Eletroforese,Bio-Rad,1645070,"PowerPac Universal Power Supply
+
+Código do produto: 1645070
+
+Fonte de alimentação versátil para uma ampla gama de aplicações de eletroforese e blotting, combinando potência e flexibilidade operacional. Oferece saída ajustável de 10–500 V, 0,01–2,5 A e até 500 W, com três modos de operação (tensão constante, corrente constante ou potência constante) e crossover automático entre eles. Possui LCD gráfico retroiluminado (128 × 64) que mostra os parâmetros da corrida em tempo real, controle de tempo programável (1 min – 99 h 59 min) e armazenamento de métodos programáveis (até 9 métodos com até 9 passos cada). Os recursos incluem recuperação automática após falta de energia, múltiplas proteções de segurança e terminais banana em paralelo para conectividade robusta.",https://www.bio-rad.com/pt-br/product/powerpac-universal-power-supply?ID=89cb0329-d728-4689-87e8-47d77fd0a9f0,\Imagens\produtos\M1363-500G.jpg,F
+"Mini-PROTEAN® Tetra Vertical Electrophoresis Cell, 4-gel, for 1.0 mm",Equipamentos,Eletroforese,Bio-Rad,1658001,"Mini-PROTEAN® Tetra Vertical Electrophoresis Cell, 4-gel, for 1.0 mm
+
+Código do produto: 1658001
+
+Sistema de eletroforese vertical mini para 1–4 géis (precast ou handcast), com configuração 4-gel para géis de 1,0 mm. Permite corridas rápidas (1 a 4 mini géis em 15–20 min) e casting confiável graças às gaxetas termoplásticas, que selam firmemente para casting sem vazamentos, além de frames com fechamento por came para alinhamento preciso. Nesta configuração, inclui companion module, 2 casting stands, 4 casting frames, pentes 10 poços, 5 short plates e 5 spacer plates, otimizando produtividade em SDS-PAGE e aplicações relacionadas.",https://www.bio-rad.com/pt-br/sku/1658001FC-mini-protean-tetra-vertical-electrophoresis-cell-4-gel-for-1-0-mm-thick-handcast-gels?ID=1658001FC,\Imagens\produtos\invitek.jpg,F
+"Mini-PROTEAN® Tetra Vertical Electrophoresis Cell, 2-gel, for 1.0 mm",Equipamentos,Eletroforese,Bio-Rad,1658003,"Mini-PROTEAN® Tetra Vertical Electrophoresis Cell, 2-gel, for 1.0 mm
+
+Código do produto: 1658003
+
+Sistema de eletroforese vertical mini com configuração 2-gel para géis de 1,0 mm, compatível com o ecossistema Mini-PROTEAN/Ready Gel (precast e handcast). Mantém o mesmo conjunto de diferenciais do Tetra: montagem simples, mecanismo de vedação patenteado para reduzir erros no casting, e capacidade de rodar mini géis com rapidez (15–20 min). Inclui casting stand, casting frames, pentes 10 poços, 5 short plates e 5 spacer plates; e pode ser convertido para 4 géis com a adição do companion running module (1658038).",https://www.bio-rad.com/pt-br/sku/1658003FC-mini-protean-tetra-vertical-electrophoresis-cell-2-gel-for-1-0-mm-thick-handcast-gels?ID=1658003FC,\Imagens\produtos\AL006A-500ML.jpg,F
+"Mini-PROTEAN® Tetra Vertical Electrophoresis Cell, 4-gel, for 1.5 mm",Equipamentos,Eletroforese,Bio-Rad,1658006,"Mini-PROTEAN® Tetra Vertical Electrophoresis Cell, 4-gel, for 1.5 mm
+
+Código do produto: 1658006
+
+Sistema de eletroforese vertical mini em configuração 4-gel para géis de 1,5 mm, suportando 1–4 mini géis (precast ou handcast) e possibilitando corridas rápidas (15–20 min). O conjunto de casting foi desenhado para consistência: gaxetas termoplásticas para vedação sem vazamentos, frames com fechamento por came para alinhamento preciso e casting mais reprodutível. Nesta configuração, inclui companion module, 2 casting stands, 4 casting frames, pentes 10 poços, 5 short plates e 5 spacer plates.",https://www.bio-rad.com/pt-br/sku/1658007FC-mini-protean-tetra-vertical-electrophoresis-cell-2-gel-for-1-5-mm-thick-handcast-gels?ID=1658007FC,\Imagens\produtos\AL028A.jpg,F
+"Mini-PROTEAN® Tetra Vertical Electrophoresis Cell, 2-gel, for 1.5 mm",Equipamentos,Eletroforese,Bio-Rad,1658007,"Mini-PROTEAN® Tetra Vertical Electrophoresis Cell, 2-gel, for 1.5 mm
+
+Código do produto: 1658007
+
+Sistema de eletroforese vertical mini em configuração 2-gel para géis de 1,5 mm, compatível com Mini-PROTEAN/Ready Gel e com arquitetura projetada para setup rápido e casting seguro (vedação para reduzir falhas e vazamentos). Permite rodar mini géis de forma ágil (15–20 min) e atende rotinas de SDS-PAGE e triagens. Inclui 1 casting stand, 2 casting frames, pentes 10 poços e 5 conjuntos de placas de vidro; e, se necessário, a plataforma permite expansão de configuração dentro da família Tetra via acessórios apropriados.",https://www.bio-rad.com/pt-br/sku/1658007FC-mini-protean-tetra-vertical-electrophoresis-cell-2-gel-for-1-5-mm-thick-handcast-gels?ID=1658007FC,\Imagens\produtos\TCL280-500ML.JPG,F
+"Mini-Sub Cell GT Horizontal Electrophoresis System, 7 x 10 cm tray",Equipamentos,Eletroforese,Bio-Rad,1704466,"Mini-Sub Cell GT Horizontal Electrophoresis System, 7 × 10 cm tray
+Código do produto: 1704466
+Sistema compacto de eletroforese horizontal para separação rápida de DNA/RNA em gel de agarose, fornecido com bandeja UV-transparente de 7 × 10 cm e pentes 8 e 15 poços. Formato mini com capacidade típica de 8–30 amostras e volume de tampão ~270 mL, favorecendo economia de tampão e corridas ágeis em bancada.",https://www.bio-rad.com/pt-br/sku/1704466-mini-sub-cell-gt-horizontal-electrophoresis-system-7-x-10-cm-tray?ID=1704466,\Imagens\produtos\MH033-500G.jpg,F
+"Wide Mini-Sub Cell GT Horizontal Electrophoresis System, 15 x 10 cm tray",Equipamentos,Eletroforese,Bio-Rad,1704468,"Wide Mini-Sub Cell GT Horizontal Electrophoresis System, 15 × 10 cm tray
+Código do produto: 1704468
+Sistema horizontal “wide” para triagens com maior produtividade, capaz de rodar até 60 amostras simultaneamente, com plataforma larga que permite 30 amostras por pente. Acompanha bandeja UV-transparente 15 × 10 cm e pentes 15 e 20 poços; o conjunto é compatível/intercambiável (pentes, suportes e bandejas) com unidades maiores da linha Sub-Cell GT, facilitando padronização e expansão de capacidade.",https://www.bio-rad.com/pt-br/sku/1704468-wide-mini-sub-cell-gt-horizontal-electrophoresis-system-15-x-10-cm-tray?ID=1704468,\Imagens\produtos\TCL280-500ML.JPG,F
+"Sub-Cell GT Horizontal Electrophoresis System, 15 x 25 cm tray",Equipamentos,Eletroforese,Bio-Rad,1704404,"Sub-Cell GT Horizontal Electrophoresis System, 15 × 25 cm tray
+Código do produto: 1704404
+Sistema horizontal versátil para rotinas de maior escala, fornecido com tanque, tampa com cabos, bandeja 15 × 25 cm, nível de bolha e pentes 15 e 20 poços. Plataforma com ampla faixa de throughput (1–120 amostras), volume de tampão ~1 L e taxa de migração de bromofenol azul de ~3,0 cm/h a 75 V, suportando bandejas de diferentes comprimentos dentro da família (15 × 10 até 15 × 25 cm).",https://www.bio-rad.com/pt-br/sku/1704404-sub-cell-gt-horizontal-electrophoresis-system-15-x-25-cm-tray?ID=1704404,\Imagens\produtos\invitek.jpg,F
+Trans-Blot® Turbo™ Transfer System,Equipamentos,Eletroforese,Bio-Rad,1704150,"Trans-Blot® Turbo™ Transfer System
+Código do produto: 1704150
+Sistema de transferência semi-dry de alta produtividade para Western blot, realizando transferências de qualidade em até 3 minutos. Permite transferir 1–4 géis mini ou 1–2 géis midi por corrida, com eficiência superior vs. métodos tradicionais e maior rapidez vs. tanque úmido. Fornecido com o instrumento, 2 cassetes de transferência e rolo para montagem.",https://www.bio-rad.com/pt-br/sku/1704150EDU-trans-blot-turbo-transfer-system?ID=1704150EDU,\Imagens\produtos\TCL280-500ML.JPG,F
+Trans-Blot® SD Semi-Dry Electrophoretic Transfer Cell,Equipamentos,Eletroforese,Bio-Rad,1703940,"Trans-Blot® SD Semi-Dry Electrophoretic Transfer Cell
+Código do produto: 1703940
+Célula de transferência semi-dry para blotting rápido e econômico, operando sem tanque de tampão, com requisito de tampão de 200 mL. Capacidade para até 4 sanduíches de gel Mini-PROTEAN/Ready Gel ou 3 géis Criterion, com tamanho máximo de gel 24 × 16 cm; recomendação de fonte PowerPac™ HC para operação.",https://www.bio-rad.com/pt-br/product/trans-blot-sd-semi-dry-transfer-cell?ID=b92801aa-76b7-45c9-825e-672589d01b00,\Imagens\produtos\rabbits2.jpg,F
+Mini Trans-Blot Module,Equipamentos,Eletroforese,Bio-Rad,1703935,"Mini Trans-Blot Module
+Código do produto: 1703935
+Módulo de transferência para configuração modular: inclui 2 cassetes porta-gel, espumas, conjunto de eletrodos e unidade de resfriamento, sem tanque inferior e tampa. Totalmente compatível com a linha Mini-PROTEAN® Tetra (1658000–1658007), podendo ser pareado com o tanque/tampa do sistema Mini-PROTEAN para realizar transferências.",https://www.bio-rad.com/pt-br/sku/1703935-mini-trans-blot-module?ID=1703935,\Imagens\produtos\MB554-20PR.JPG,F
+Gene Pulser Xcell Total System,Equipamentos,Eletroporação,Bio-Rad,1652660,"Gene Pulser Xcell Total System
+Código do produto: 1652660
+Sistema completo e modular de eletroporação para ampla gama de células (eucarióticas e procarióticas), com suporte a pulsos exponenciais ou quadrados e tensões de até 3.000 V. Ajustes avançados de capacitância e resistência (ex.: 25–3.275 µF na faixa de 10–500 V; 10/25/50 µF em alta tensão) permitem otimização fina por tipo celular; configuração “total” inclui os módulos necessários para máxima versatilidade do setup.",https://www.bio-rad.com/pt-br/product/gene-pulser-xcell-electroporation-systems?ID=b1a35eb3-d55c-47b3-aaf3-95e4d1d85848,\Imagens\produtos\MB580-20PR.JPG,F
+Gene Pulser Xcell Eukaryotic System,Equipamentos,Eletroporação,Bio-Rad,1652661,"Gene Pulser Xcell Eukaryotic System
+Código do produto: 1652661
+Configuração dedicada para eucariotos, suportando pulsos exponenciais ou quadrados com ampla faixa de capacitância (25–3.275 µF em 10–500 V; 10/25/50 µF em 500–3.000 V) e controle de temporização de pulso para protocolos robustos. O conjunto inclui câmara/cubetas apropriadas para aplicações eucarióticas (ex.: 0,4 cm), favorecendo transfeção de células difíceis e padronização reprodutível.",https://www.bio-rad.com/pt-br/sku/1652661-gene-pulser-xcell-eukaryotic-system?ID=1652661,\Imagens\produtos\MB530-20PR.JPG,F
+Gene Pulser Xcell Microbial System,Equipamentos,Eletroporação,Bio-Rad,1652662,"Gene Pulser Xcell Microbial System
+Código do produto: 1652662
+Sistema orientado a microrganismos, com pulsos exponenciais ou quadrados e parâmetros ajustáveis (capacitância 10/25/50 µF; resistência paralela 50–1.000 Ω + infinito), adequado para protocolos bacterianos e fúngicos. Fornecido com módulo para entrega de pulso exponencial e conjunto de cubetas estéreis para aplicações microbianas (ex.: 0,1 e 0,2 cm).",https://www.bio-rad.com/pt-br/sku/1652662-gene-pulser-xcell-microbial-system?ID=1652662,\Imagens\produtos\MB619-20PR.JPG,F
+iTaq Universal SYBR® Green Supermix (200 rxn),Reagentes laboratoriais,qPCR,Bio-Rad,1725120,"iTaq Universal SYBR® Green Supermix (200 rxn)
+Código do produto: 1725120
+Master mix 2× pronto para uso para qPCR com corante, otimizado para qualquer instrumento de PCR em tempo real. Contém iTaq DNA Polymerase hot-start mediada por anticorpo, dNTPs, MgCl₂, SYBR Green I, realçadores/estabilizantes e blend de corantes de referência passiva (incluindo ROX e fluoresceína), garantindo compatibilidade com plataformas ROX-dependentes e independentes; ativação rápida (ex.: 30 s). Formato: 200 × 20 µL, 2 mL (2 × 1 mL).",https://www.bio-rad.com/pt-br/sku/1725120-itaq-universal-sybr-green-supermix-200-x-20-ul-rxns-2-ml-2-x-1-ml?ID=1725120,\Imagens\produtos\MB618-20PR.JPG,F
+iTaq Universal Probes Supermix (200 rxn),Reagentes laboratoriais,qPCR,Bio-Rad,1725130,"iTaq Universal Probes Supermix (200 rxn)
+Código do produto: 1725130
+Supermix 2× para qPCR com sondas (hidrólise), contendo dNTPs, iTaq DNA polymerase, MgCl₂, realçadores/estabilizantes e corantes de normalização ROX, visando reprodutibilidade e rastreabilidade em quantificação por sonda. Formato: 200 × 20 µL, 2 mL (2 × 1 mL).",https://www.bio-rad.com/pt-br/sku/1725130-itaq-universal-probes-supermix-200-x-20-ul-rxns-2-ml-2-x-1-ml?ID=1725130,\Imagens\produtos\MB571-20PR.JPG,F
+iTaq Universal Probes One-Step Kit (100 rxn),Reagentes laboratoriais,qPCR,Bio-Rad,1725140,"iTaq Universal Probes One-Step Kit (100 rxn)
+Código do produto: 1725140
+Kit one-step RT-qPCR para ensaios com sonda, em formato dois tubos, com 2× iTaq Universal Probes Reaction Mix (inclui iTaq DNA polymerase, tampões e ROX normalization dyes), iScript reverse transcriptase e água livre de nucleases, reduzindo manipulações e tempo de setup em workflows de RNA. Formato: 100 × 20 µL, 1 mL (1 × 1 mL).",https://www.bio-rad.com/pt-br/sku/1725140-itaq-universal-probes-one-step-kit-100-x-20-ul-rxns-1-ml?ID=1725140,\Imagens\produtos\MB544-20PR.JPG,F
+Insta NX® Mag16 Plus,Equipamentos,"Extração, PCR, qPCR, ddPCR",Himedia,MBLA018-1NO,"Nome do produto: Insta NX® Mag16 Plus
+
+Código fabricante: MBLA018-1NO
+
+Extrator automatizado de ácido nucleico para extração e purificação de DNA e RNA com tecnologia de micropartículas magnéticas, com capacidade para processar 1–16 amostras por ciclo. Suporta volumes de amostra de 25–800 µl e volumes de eluição otimizáveis (≈50 µl), com interface de operação intuitiva e presets de protocolo configuráveis. Ideal para laboratórios que precisam reduzir intervenção manual enquanto obtêm ácidos nucleicos adequados para análises downstream como PCR e qPCR.",https://www.himedialabs.com/us/insta-nxr-mag16plus.html,\Imagens\produtos\MB542-20PR.JPG,F
+Insta NX® Mag32 Plus,Equipamentos,"Extração, PCR, qPCR, ddPCR",Himedia,MBLA019-1NO,"Nome do produto: Insta NX® Mag32 Plus
+
+Código fabricante: MBLA019-1NO
+
+Extrator automatizado de ácido nucleico baseado em tecnologia de micropartículas magnéticas, com capacidade de processar 1–32 amostras por corrida. Projetado para purificação de DNA e RNA de diversas fontes, com volumes de processamento de 50–1000 µl e volumes de eluição ajustáveis (≈25–100 µl). O sistema possui interface touchscreen, software expansível para múltiplos protocolos, e é compatível com consumíveis de 96 picos magnéticos e placa Deep Well, favorecendo escalabilidade em workflows de extração.",https://www.himedialabs.com/us/insta-nxr-mag32-pro.html,\Imagens\produtos\Rabbit.jpg,F
+Insta NX® Mag24 Plus,Equipamentos,"Extração, PCR, qPCR, ddPCR",Himedia,MBLA020-1NO,"Nome do produto: Insta NX® Mag24 Plus
+
+Código fabricante: MBLA020-1NO
+
+Extrator automatizado de ácido nucleico para purificação de DNA/RNA por tecnologia magnética, com capacidade de até 24 amostras por ciclo. Inclui hastes magnéticas integradas que realizam binding, lavagem e eluição com mínima intervenção manual, e é especialmente adequado para aplicações como extração de cfDNA, preparação de biblioteca de nucleicos, triagem de DNA em sangue e detecção de nucleico sensível. Compatível com diferentes formatos de tubo e volumes de amostra dentro da faixa pré-definida.",https://www.himedialabs.com/us/insta-nxr-mag24.html,\Imagens\produtos\Rabbit.jpg,F
+Insta NX® Mag96 Plus,Equipamentos,"Extração, PCR, qPCR, ddPCR",Himedia,MBLA030-1NO,"Nome do produto: Insta NX® Mag96 Plus
+
+Código fabricante: MBLA030-1NO
+
+Extrator automatizado de ácido nucleico com tecnologia de separação magnética, capaz de processar 1–96 amostras simultaneamente em placa de 96 poços, ideal para workflows de alta capacidade. Permite extração de DNA e RNA com volumes de amostra típicos de 25–400 µl e eluição de aproximadamente 30 µl, com interface touchscreen e opções de protocolos programáveis. A forma de operação é projetada para alta produtividade com mínima intervenção, adequado para laboratórios que realizam extração sistemática para análises moleculares em larga escala.",,\Imagens\produtos\invitek.jpg,F
+Insta Q96® AG,Equipamentos,"Amplificação, qPCR",Himedia,MBLA027-1NO,"Nome do produto: Insta Q96® AG
+
+Código fabricante: MBLA027-1NO
+
+Sistema Real-Time PCR de 96 poços com interface touchscreen e tecnologia de aquecimento Peltier, projetado para amplificação e detecção em tempo real de ácidos nucleicos. Suporta bloco de 96 poços (tubos 0,2 mL, tiras e placa) com 5 canais de detecção fluorescente, permitindo análises como quantificação absoluta e relativa, estudo de genes, HRM e análises SNP. Volumes de reação compatíveis variam de 5–100 µL com detecção de múltiplos corantes fluorescentes (incluindo FAM, SYBR Green I, VIC, HEX, TET, JOE, ROX, Texas-Red, Cy5 e Quasar-705). Controle de temperatura com precisão e uniformidade elevada garante resultados reprodutíveis em aplicações clínicas e de pesquisa.",https://www.himedialabs.com/us/insta-q96r-ag.html,\Imagens\produtos\1001136100.jpg,F
+Insta Q96® AG 6.0,Equipamentos,"Amplificação, qPCR",Himedia,MBLA028-1NO,"Nome do produto: Insta Q96® AG 6.0
+
+Código fabricante: MBLA028-1NO
+
+Sistema Real-Time PCR de 96 poços avançado com interface touchscreen e 6 canais de detecção fluorescente (incluindo FAM, SYBR Green I, VIC, HEX, TET, JOE, NED, ROX, Texas-Red, Cy5 e Quasar-705), ideal para workflows de quantificação e análises multiplex. Projetado com tecnologia de refrigeração Peltier, detecção óptica de alto desempenho com LED e sensor CMOS, e software para aquisição de dados robusta. Suporta a mesma gama de formatos de amostra (tubos 0,2 mL, tiras e placa) e volumes de reação (5–100 µL), com faixa dinâmica de detecção ampla (≈1 a 10¹⁰ cópias). Inclui funcionalidades para HRM, SNP, estudo de genes e análise quantitativa, com precisão térmica e uniformidade que favorecem resultados confiáveis em laboratórios de diagnóstico e pesquisa.",https://www.himedialabs.com/us/insta-q96r-ag-6-0.html,\Imagens\produtos\G1245-500G.jpg,F
+HiPurA® Pre-filled Clinical Multi-purpose Nucleic Acid Purification Kit (Mag16 Plus),Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB583MPF16200-96PR,"Nome do produto: HiPurA® Pre-filled Clinical Multi-purpose Nucleic Acid Purification Kit (Mag16 Plus)
+
+Código fabricante: MB583MPF16200-96PR
+
+Kit de purificação de ácidos nucleicos pré-preenchido, baseado em tecnologia de beads magnéticas para uso no Insta NX® Mag16 Plus, projetado para o isolamento de DNA e RNA a partir de uma ampla variedade de amostras clínicas. O produto é fornecido no formato de 06 placas pré-preenchidas, cada uma com 16 preparações, permitindo o processamento automatizado de até 96 amostras, com etapas integradas de lise, ligação dos ácidos nucleicos às beads magnéticas, remoção de contaminantes e eluição de ácidos nucleicos adequados para aplicações downstream como PCR e outras análises moleculares.",https://www.himedialabs.com/us/molecular-biology/nucleic-acid-purification-kits/magnetic-manual-automated-extraction-kits/magnetic-automated-extraction-kits-pre-filled-and-non-prefilled/hipura-pre-filled-clinical-multi-purpose-magnetic-nucleic-acid-purification-kit-plates-mb583mpf16200,\Imagens\produtos\M1363-500G.jpg,F
+HiPurA® Pre-filled Plates for Viral Nucleic Acid Purification (Mag16 Plus),Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB582MPF16-96PR,"Nome do produto: HiPurA® Pre-filled Plates for Viral Nucleic Acid Purification (Mag16 Plus)
+
+Código fabricante: MB582MPF16-96PR
+
+Placas pré-preenchidas para purificação de ácidos nucleicos virais por tecnologia de beads magnéticas, desenvolvidas para uso com o sistema Insta NX® Mag16 Plus. O conjunto é composto por 06 placas pré-preenchidas, cada uma contendo 16 preparações, totalizando 96 extrações, com reagentes otimizados para isolamento de DNA/RNA viral a partir de diferentes matrizes clínicas, fornecendo ácidos nucleicos prontos para aplicações moleculares downstream.",https://www.himedialabs.com/us/hipura-pre-filled-plates-for-viral-nucleic-acid-purification-mb582mpf16.html,\Imagens\produtos\invitek.jpg,F
+HiPurA® Multi-sample Pre-filled Plates for DNA Extraction  (Mag16 Plus),Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB554MPF16200-96PR,"Nome do produto: HiPurA® Multi-sample Pre-filled Plates for DNA Extraction (Mag16 Plus)
+
+Código fabricante: MB554MPF16200-96PR
+
+Placas pré-preenchidas para extração automatizada de DNA utilizando tecnologia de beads magnéticas,  a partir de uma ampla variedade de amostras clínicas, no sistema Insta NX® Mag16 Plus, fornecidas como um conjunto de 06 placas, cada uma com 16 preparações, permitindo o processamento de até 96 amostras. O formato pré-carregado integra reagentes e consumíveis necessários para ligação às beads magnéticas, lavagens e eluição, resultando em DNA de qualidade compatível com aplicações como PCR e outras técnicas de biologia molecular.",https://www.himedialabs.com/us/hipura-multi-sample-pre-filled-plates-for-dna-extraction-mb554mpf16200.html,\Imagens\produtos\AL006A-500ML.jpg,F
+HiPurA® Pre-filled Plates for Stool Nucleic Acid Purification (Mag16 Plus),Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB544MPF16-96PR,"Nome do produto: HiPurA® Pre-filled Plates for Stool Nucleic Acid Purification (Mag16 Plus)
+
+Código fabricante: MB544MPF16-96PR
+
+Placas pré-preenchidas para purificação de ácidos nucleicos a partir de amostras fecais, baseadas em tecnologia de beads magnéticas e compatíveis com o Insta NX® Mag16 Plus. O produto é fornecido como 06 placas pré-preenchidas, cada uma contendo 16 preparações, possibilitando a extração automatizada de até 96 amostras, com workflow simplificado para obtenção de DNA/RNA adequado para análises moleculares downstream.",https://www.himedialabs.com/us/hipura-pre-filled-plates-for-stool-nucleic-acid-purification.html,\Imagens\produtos\AL028A.jpg,F
+HiPurA® Pre-filled Plates for Soil DNA Purification (Mag16 Plus),Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB542MPF16-96PR,"Nome do produto: HiPurA® Pre-filled Plates for Soil DNA Purification (Mag16 Plus)
+
+Código fabricante: MB542MPF16-96PR
+
+Placas pré-preenchidas para purificação de DNA a partir de amostras de solo, utilizando tecnologia de beads magnéticas no sistema Insta NX® Mag16 Plus. O conjunto é composto por 06 placas, cada uma com 16 preparações, totalizando 96 extrações, permitindo a obtenção de DNA de solo compatível com aplicações como PCR e outras análises moleculares, com desempenho dependente das características da matriz da amostra.",https://www.himedialabs.com/us/hipurar-pre-filled-plates-for-soil-dna-purification.html,\Imagens\produtos\TCL280-500ML.JPG,F
+HiPurA® SuperPlant Pre-filled Plates for DNA Purification (Mag16 Plus),Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB571MPF16-96PR,"Nome do produto: HiPurA® SuperPlant Pre-filled Plates for DNA Purification (Mag16 Plus)
+
+Código fabricante: MB571MPF16-96PR
+
+Placas pré-preenchidas para purificação de DNA de tecidos vegetais, formuladas para uso com o Insta NX® Mag16 Plus e baseadas em tecnologia de beads magnéticas, fornecendo um método rápido e confiável para isolar DNA a partir de amostras vegetais. O kit foi desenvolvido para a extração eficiente de DNA de plantas ricas em polifenóis, permitindo a remoção de compostos inibidores comumente presentes nessas matrizes e resultando em DNA de qualidade adequada para aplicações downstream como PCR. O procedimento envolve adsorção do DNA às beads magnéticas, remoção de contaminantes residuais e eluição do DNA purificado. O produto é apresentado como um conjunto de 6 placas pré-preenchidas, cada uma com 16 preparações, possibilitando o processamento automatizado de até 96 amostras.",https://www.himedialabs.com/us/hipuraar-superplant-pre-filled-plates-for-plant-dna-extraction.html,\Imagens\produtos\MH033-500G.jpg,F
+HiPurA® Pre- filled Cartridges for Paraffin-Embedded Tissue Nucleic Acid Purification (Mag16 Plus),Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB530MPF16-96PR,"Nome do produto: HiPurA® Pre-filled Cartridges for Paraffin-Embedded Tissue Nucleic Acid Purification (Mag16 Plus)
+
+Código fabricante: MB530MPF16-96PR
+
+Cartuchos pré-preenchidos para purificação de ácidos nucleicos a partir de tecidos embebidos em parafina (FFPE), baseados em tecnologia de beads magnéticas para uso com o Insta NX® Mag16 Plus. O produto é fornecido em 06 placas pré-preenchidas, cada uma contendo 16 preparações, permitindo o processamento automatizado de até 96 amostras FFPE, com reagentes integrados para obtenção de DNA/RNA compatível com análises moleculares downstream.",https://www.himedialabs.com/us/hipurar-pre-filled-cartridges-for-paraffin-embedded-tissue-nucleic-acid-purification.html,\Imagens\produtos\TCL280-500ML.JPG,F
+HiPurA® Pre-filled Plates for Tissue RNA purification (Mag16 Plus),Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB618MPF16200-96PR,"Nome do produto: HiPurA® Pre-filled Plates for Tissue RNA Purification (Mag16 Plus)
+
+Código fabricante: MB618MPF16200-96PR
+
+Placas pré-preenchidas para purificação automatizada de RNA a partir de tecidos, baseadas em tecnologia de beads magnéticas e compatíveis com o Insta NX® Mag16 Plus. O conjunto inclui 06 placas pré-preenchidas, cada uma com 16 preparações, permitindo a extração de até 96 amostras, com workflow padronizado para obtenção de RNA adequado para aplicações downstream como RT-PCR e qPCR.",https://www.himedialabs.com/us/hipura-pre-filled-plates-for-tissue-rna-purification-mb618mpf16200.html,\Imagens\produtos\invitek.jpg,F
+HiPurA® DNA/ RNA Purification Kit,Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB583-50PR,"Nome do produto: HiPurA® DNA/ RNA Purification Kit
+
+Código fabricante: MB583-50PR
+Kit para purificação de DNA/RNA total de uma ampla variedade de amostras, utilizando miniprep spin column, com procedimento em três etapas: adsorção do DNA/RNA à membrana, remoção de contaminantes residuais e eluição do ácido nucleico purificado, indicado para aplicações downstream como PCR e Southern blotting.",https://www.himedialabs.com/us/hipura-pre-filled-cartridges-for-food-pathogen-purification-mb571mpf16.html,\Imagens\produtos\TCL280-500ML.JPG,F
+HiPurA® Viral DNA/ RNA Purification Kit,Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB582-50PR,"Nome do produto: HiPurA® Viral DNA/ RNA Purification Kit
+
+Código fabricante: MB582-50PR
+Kit para isolamento de DNA/RNA viral de plasma, soro e outros fluidos corporais (frescos, >24 h ou congelados) por spin-column, com lise em solução contendo íons caotrópicos na presença de Proteinase K a 56 °C; utiliza HiElute Miniprep spin-column (Capped) com membrana desenvolvida para ligação otimizada de DNA/RNA viral.",https://www.himedialabs.com/us/hipurar-pre-filled-cartridges-for-paraffin-embedded-tissue-nucleic-acid-purification.html,\Imagens\produtos\rabbits2.jpg,F
+HiPurA® Multi-Sample DNA Purification Kit,Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB554-50PR,"Nome do produto: HiPurA® Multi-Sample DNA Purification Kit
+
+Código fabricante: MB554-50PR
+Kit para purificação de DNA total por miniprep spin column, baseado no princípio de ligação à sílica em formato microspin, simplificando o isolamento de DNA de sangue (fresco, >24 h ou congelado), bactérias (Gram+ e Gram−), tecidos e células, com etapas de ligação, lavagem e eluição que permitem processar múltiplas amostras com workflow padronizado.",https://www.himedialabs.com/us/hipura-pre-filled-plates-for-tissue-rna-purification-mb618mpf16200.html,\Imagens\produtos\MB554-20PR.JPG,F
+HiPurA® Forensic Multi Sample DNA Purification Kit,Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB580-50PR,"Nome do produto: HiPurA® Forensic Multi Sample DNA Purification Kit
+
+Código fabricante: MB580-50PR
+Kit para extração de DNA de amostras forenses por spin-column, incluindo bitucas de cigarro, envelopes, cabelos, unhas, selos, manchas de sangue/saliva/sêmen, ossos e dentes; após lise, o DNA liga à membrana de sílica do HiElute Miniprep Spin Column (Capped) e duas lavagens removem sais/proteínas residuais antes da eluição em tampão fornecido.",https://www.himedialabs.com/us/mb583-hipura-dna-rna-purification-kit.html,\Imagens\produtos\MB580-20PR.JPG,T
+HiPurA® Stool DNA Purification Kit,Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB544-50PR,"Nome do produto: HiPurA® Stool DNA Purification Kit
+
+Código fabricante: MB544-50PR
+Kit para purificação de DNA de fezes usando miniprep spin columns, baseado no princípio de ligação à sílica em formato microspin, otimizado para isolamento rápido e confiável de DNA total de até 250 mg de amostras fecais frescas ou congeladas.",https://www.himedialabs.com/us/mb582-hipura-viral-dna-rna-purification-kit.html,\Imagens\produtos\MB530-20PR.JPG,F
+HiPurA® Soil DNA Purification Kit,Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB542-50PR,"Nome do produto: HiPurA® Soil DNA Purification Kit
+
+Código fabricante: MB542-50PR
+Kit para purificação de DNA total de amostras ambientais com alto teor de ácidos húmicos (incluindo compost, sedimento, esterco e solos difíceis) por miniprep spin column, baseado em ligação à sílica em formato microspin; inclui Inhibitor Removal Solution (IRSH) para remoção efetiva de inibidores de PCR durante o processo de extração.",https://www.himedialabs.com/us/mb554-hipura-multi-sample-dna-purification-kit.html,\Imagens\produtos\MB619-20PR.JPG,F
+HiPurA® SuperPlant DNA Purification Kit,Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB571-50PR,"Nome do produto: HiPurA® SuperPlant DNA Purification Kit
+
+Código fabricante: MB571-50PR
+Kit para isolamento de DNA de material vegetal fresco, por spin column, desenvolvido para plantas ricas em polifenóis; o protocolo é otimizado para até 200 mg (wet-weight) de amostra, com maceração em nitrogênio líquido e uso de SuperPlant Extraction Buffer contendo CTAB (cetiltrimetilamônio brometo) para ruptura celular e solubilização do conteúdo vegetal.",https://www.himedialabs.com/us/mb580-hipura-forensic-multi-sample-dna-purification-kit.html,\Imagens\produtos\MB618-20PR.JPG,F
+HiPurA® Paraffin-Embedded Tissue DNA Purification Kit,Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB530-50PR,"Nome do produto: HiPurA® Paraffin-Embedded Tissue DNA Purification Kit
+
+Código fabricante: MB530-50PR
+Kit para purificação de DNA total por miniprep spin column a partir de tecidos fixados em formalina e embebidos em parafina (FFPE), incluindo exemplos como fígado, cérebro, pulmão, coração, rim e baço; baseado no princípio de ligação à sílica em microspin, com etapas de ligação, lavagem e eluição para obtenção de DNA adequado para análises downstream.",https://www.himedialabs.com/us/mb544-hipura-stool-dna-purification-kit.html,\Imagens\produtos\MB571-20PR.JPG,F
+HiPurA® Multi-Sample RNA Purification Kit,Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB619-50PR,"Nome do produto: HiPurA® Multi-Sample RNA Purification Kit
+
+Código fabricante: MB619-50PR
+Kit para purificação de RNA total usando miniprep spin columns, aplicável a ampla gama de matrizes (ex.: sangue humano/animal, plasma, soro, culturas bacterianas/ leveduras/ fungos, plantas, vírus, células, tecidos, fezes e fluidos corporais) e também para cleanup de RNA após reações enzimáticas (ex.: digestão com DNase/Proteinase, ligação e marcação de RNA).",https://www.himedialabs.com/us/mb542-hipura-soil-dna-purification-kit.html,\Imagens\produtos\MB544-20PR.JPG,F
+HiPurA® Tissue RNA Purification Kit,Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",Himedia,MB618-50PR,"Nome do produto: HiPurA® Tissue RNA Purification Kit
+
+Código fabricante: MB618-50PR
+Kit para purificação de RNA total de células e tecidos (origem humana/animal), utilizando miniprep spin columns em três etapas (adsorção do RNA à membrana, remoção de contaminantes e eluição), indicado para aplicações como Northern analysis, seleção de Poly A+ RNA, primer extension, ensaios de proteção RNase/S1, RT-PCR, differential display, expression array/chip e construção de biblioteca de cDNA.",https://www.himedialabs.com/us/mb571-hipura-superplant-dna-purification-kit-for-purification-of-dna-from-plants-rich-in-polyphenols.html,\Imagens\produtos\MB542-20PR.JPG,F
+"Luria Bertani Broth, Miller",Reagentes laboratoriais,Cultura celular,Himedia,G1245-500G,"Luria Bertani Broth, Miller
+Código do produto: G1245-500G
+Meio nutritivo clássico para cultivo e manutenção de Escherichia coli (incluindo linhagens recombinantes) em rotinas de biologia molecular. Formulação “Miller”, com NaCl 10 g/L, adequada para transformação, clonagem e expressão proteica; pH final 7,5 ± 0,2 (25 °C).",https://www.himedialabs.com/us/mb530-hipura-paraffin-embedded-tissue-dna-purification-kit.html,\Imagens\produtos\Rabbit.jpg,F
+YPD Broth (YEPD Broth),Reagentes laboratoriais,Cultura celular,Himedia,M1363-500G,"YPD Broth (YEPD Broth)
+Código do produto: M1363-500G
+Meio rico para cultivo de leveduras (ex.: Saccharomyces cerevisiae) em aplicações de biologia molecular. Composição típica peptona + extrato de levedura + dextrose, suportando crescimento vigoroso; pH final 6,5 ± 0,2 (25 °C).",https://www.himedialabs.com/us/mb619-hipura-multi-sample-rna-purification-kit.html,\Imagens\produtos\Rabbit.jpg,F
+Sabouraud Dextrose Broth,Reagentes laboratoriais,Cultura celular,Himedia,MH033-500G,"Sabouraud Dextrose Broth
+Código do produto: MH033-500G
+Meio para cultivo de leveduras, fungos filamentosos e microrganismos acidúricos, alinhado a aplicações de controle microbiológico de produtos não estéreis. Contém dextrose 20 g/L e mistura de digestos/peptonas; pH após esterilização 5,6 ± 0,2 (25 °C).",https://www.himedialabs.com/us/mb618-hipura-tissue-rna-purification-kit.html,\Imagens\produtos\invitek.jpg,F
+MacConkey Broth,Reagentes laboratoriais,Cultura celular,Himedia,MH083-500G,"MacConkey Broth
+Código do produto: MH083-500G
+Meio seletivo/diferencial para enterobactérias, com sistema clássico baseado em sais biliares e cristal violeta (inibição de Gram-positivas) e lactose para avaliação de fermentação em enriquecimento/triagem.",https://www.himedialabs.com/us/luria-bertani-broth-miller.html,\Imagens\produtos\1001136100.jpg,T
+Luria Broth,Reagentes laboratoriais,Cultura celular,Himedia,M575-500G,"Luria Broth
+Código do produto: M575-500G
+Meio nutritivo para cultivo e manutenção de E. coli recombinante em aplicações de biologia molecular. Composição definida (tryptone, extrato de levedura e NaCl) com pH final 7,0 ± 0,2 (25 °C).",https://www.himedialabs.com/us/m1363-ypd-broth-yepd-broth.html,\Imagens\produtos\G1245-500G.jpg,F
+BHI Broth,Reagentes laboratoriais,Cultura celular,Himedia,M210-500G,"BHI Broth
+Código do produto: M210-500G
+Meio enriquecido para cultivo de microrganismos mais exigentes e uso como base em diferentes workflows microbiológicos. Indicado para crescimento robusto em aplicações de rotina e pesquisa, com formulação padronizada e parâmetros de performance controlados.",https://www.himedialabs.com/us/mh033-sabouraud-dextrose-broth.html,\Imagens\produtos\M1363-500G.jpg,F
+Potato Dextrose Broth,Reagentes laboratoriais,Cultura celular,Himedia,GM403-500G,"Potato Dextrose Broth
+Código do produto: GM403-500G
+Meio baseado em infusão/extrato de batata e dextrose, indicado para crescimento de fungos e leveduras, favorecendo desenvolvimento e, em muitas aplicações, esporulação/produção de biomassa fúngica.",https://www.himedialabs.com/us/mh083-macconkey-broth.html,\Imagens\produtos\invitek.jpg,F
+Malt extract powder,Reagentes laboratoriais,Cultura celular,Himedia,PCT0412-500G,"Malt extract powder
+Código do produto: PCT0412-500G
+Extrato de malte em pó para preparo de meios voltados ao cultivo de fungos e leveduras, amplamente usado como fonte rica de nutrientes/carboidratos em microbiologia e aplicações correlatas.",https://www.himedialabs.com/us/luria-broth-g575.html,\Imagens\produtos\AL006A-500ML.jpg,F
+"Sabouraud Dextrose Agar, Granulated",Reagentes laboratoriais,Cultura celular,Himedia,GM063-500G,"Sabouraud Dextrose Agar, Granulated
+Código do produto: GM063-500G
+Meio sólido granulado para isolamento/cultivo de fungos e leveduras, com perfil ácido típico do Sabouraud para favorecer fungos e limitar parte da microbiota bacteriana; pH final ~5,6 (25 °C).",https://www.himedialabs.com/us/m210-bhi-broth-brain-heart-infusion-broth.html,\Imagens\produtos\AL028A.jpg,F
+Potato Dextrose Agar,Reagentes laboratoriais,Cultura celular,Himedia,GM096-500G,"Potato Dextrose Agar
+Código do produto: GM096-500G
+Meio sólido para cultivo e isolamento de fungos e leveduras, baseado em componentes de batata e dextrose, amplamente utilizado em microbiologia de alimentos/ambiente e rotinas de pesquisa.",https://www.himedialabs.com/us/gm403-potato-dextrose-broth-granulated.html,\Imagens\produtos\TCL280-500ML.JPG,F
+MacConkey Agar,Reagentes laboratoriais,Cultura celular,Himedia,MH081-500G,"MacConkey Agar
+Código do produto: MH081-500G
+Meio seletivo e diferencial para bacilos Gram-negativos entéricos: sais biliares + cristal violeta para seletividade e sistema de lactose/indicador para diferenciar fermentadores de lactose em placas.",https://www.himedialabs.com/us/pct0412-malt-extract-powder.html,\Imagens\produtos\MH033-500G.jpg,F
+LB Growth Top Agar,Reagentes laboratoriais,Cultura celular,Himedia,G009-500G,"LB Growth Top Agar
+Código do produto: G009-500G
+Top agar (agar reduzido) para overlay, muito usado em aplicações de biologia molecular com E. coli (ex.: ensaios com bacteriófagos e placas de “lawn”). Composição padronizada com agar 7 g/L e NaCl 10 g/L.",https://www.himedialabs.com/us/gm063-sabouraud-dextrose-agar-granulated.html,\Imagens\produtos\TCL280-500ML.JPG,F
+"Luria Bertani Agar, Miller (Miller Luria Bertani Agar)",Reagentes laboratoriais,Cultura celular,Himedia,G1151-500G,"Luria Bertani Agar, Miller (Miller Luria Bertani Agar)
+Código do produto: G1151-500G
+Meio sólido “Miller” para cultivo/manutenção de E. coli recombinante em estudos genéticos e de biologia molecular. Formulação com NaCl 10 g/L, agar 15 g/L e pH final 7,5 ± 0,2 (25 °C).",https://www.himedialabs.com/us/gm096-potato-dextrose-agar-granulated.html,\Imagens\produtos\invitek.jpg,F
+YPD (YEPD) Growth Agar,Reagentes laboratoriais,Cultura celular,Himedia,G038-500G,"YPD (YEPD) Growth Agar
+Código do produto: G038-500G
+Meio sólido rico para cultivo de leveduras (ex.: S. cerevisiae), baseado em extrato de levedura + peptona + dextrose, adequado para manutenção e crescimento rápido em placas.",https://www.himedialabs.com/us/mh081-macconkey-agar.html,\Imagens\produtos\TCL280-500ML.JPG,F
+Dulbecco’s Modified Eagle Medium (DMEM),Reagentes laboratoriais,Cultura celular,Himedia,AL006A-500ML,"Dulbecco’s Modified Eagle Medium (DMEM), Low glucose
+Código do produto: AL006A-500ML
+Meio de cultura celular pronto para uso (baixa glicose), contendo L-glutamina, 1 g/L de glicose, bicarbonato de sódio e piruvato de sódio; indicado para suplementação conforme a linhagem e o objetivo experimental.",https://www.himedialabs.com/us/g009-lb-growth-top-agar.html,\Imagens\produtos\rabbits2.jpg,F
+RPMI-1640 w/L-Glutamine and Sodium bicarbonate,Reagentes laboratoriais,Cultura celular,Himedia,AL028A-500ML,"RPMI-1640 w/L-Glutamine and Sodium bicarbonate
+Código do produto: AL028A-500ML
+Meio RPMI-1640 com L-glutamina e bicarbonato de sódio, desenvolvido para ampla gama de células (incluindo linhagens em suspensão); descrito como capaz de sustentar crescimento com 5–20% FBS e também na ausência de FBS, dependendo do sistema.",https://www.himedialabs.com/us/luria-bertani-agar-miller-miller-luria-bertani-agar.html,\Imagens\produtos\MB554-20PR.JPG,F
+NuSera™ Serum Replacement Solution Sterile filtered,Reagentes laboratoriais,Cultura celular,Himedia,TCL280-500ML,"NuSera™ Serum Replacement Solution, Sterile filtered
+Código do produto: TCL280-500ML
+Solução substituta de soro para cultura celular (filtrada estéril), proposta como alternativa ao uso de soro fetal bovino em diferentes workflows, com foco em consistência lote-a-lote e otimização de crescimento celular conforme recomendações do fabricante (TD).",https://www.himedialabs.com/us/g038-ypd-yepd-growth-agar.html,\Imagens\produtos\MB580-20PR.JPG,F
+Acrylamide/Bis-acrylamide solution 30% (29:1),Reagentes laboratoriais,Eletroforese,Himedia,ML037-500ML,"Acrylamide/Bis-acrylamide solution 30% (29:1)
+Código do produto: ML037-500ML
+Solução 30% pronta para uso (razão 29:1 acrilamida:bis), reduzindo risco de poeira/inalação/contato associado ao preparo a partir de pós e melhorando reprodutibilidade no preparo de géis de poliacrilamida.",https://www.himedialabs.com/us/al006a-dulbeccos-modified-eagle-medium-dmem-low-glucose-w-1gm-glucose-per-litre-l-glutamine-sodium-bicarbonate-and-sodium-pyruvate.html,\Imagens\produtos\MB530-20PR.JPG,T
+Ponceau-S Stain,Reagentes laboratoriais,Eletroforese,Himedia,ML045-250ML,"Ponceau-S Stain
+Código do produto: ML045-250ML
+Corante reversível para verificação rápida de proteínas em membranas após transferência (ex.: nitrocelulose/PVDF), permitindo checagem de qualidade do blot e uniformidade de transferência antes de incubação com anticorpos.",https://www.himedialabs.com/us/al028a-rpmi-1640-w-l-glutamine-and-sodium-bicarbonate.html,\Imagens\produtos\MB619-20PR.JPG,T
+Coomassie Brilliant Blue Stain,Reagentes laboratoriais,Eletroforese,Himedia,ML046-250ML,"Coomassie Brilliant Blue Stain
+Código do produto: ML046-250ML
+Solução para coloração de proteínas em géis (SDS-PAGE), adequada para visualização de bandas e documentação do perfil proteico após a corrida.",https://www.himedialabs.com/us/nuseratm-serum-replacement-solution-sterile-filtered.html,\Imagens\produtos\MB618-20PR.JPG,T
+2X Laemmli Buffer,Reagentes laboratoriais,Eletroforese,Himedia,ML021-10X6ML,"2X Laemmli Buffer
+Código do produto: ML021-10X6ML
+Tampão de amostra 2X para SDS-PAGE no padrão Laemmli, para preparo/denaturação de proteínas antes da corrida (uso típico em mistura 1:1 com a amostra, com aquecimento conforme protocolo do laboratório).",https://www.himedialabs.com/us/ml037-acrylamide-bis-acrylamide-solution-30-291.html,\Imagens\produtos\MB571-20PR.JPG,F
+Bovine serum albumin,Reagentes laboratoriais,Eletroforese,Himedia,MB083-25G,"Bovine serum albumin
+Código do produto: MB083-25G
+Albumina sérica bovina para rotinas laboratoriais (ex.: estabilização de enzimas, bloqueios, diluições e preparo de padrões), com especificação e documentação de QC conforme o fabricante (COA/TD).",https://www.himedialabs.com/us/ml045-ponceau-s-stain.html,\Imagens\produtos\MB544-20PR.JPG,F
+5X Bradford Reagent,Reagentes laboratoriais,Eletroforese,Himedia,ML202-100ML,"5X Bradford Reagent
+Código do produto: ML202-100ML
+Reagente 5X para ensaio de Bradford (baseado em corante Coomassie), destinado à quantificação de proteínas por método colorimétrico, com diluição/uso conforme instruções do fabricante.",https://www.himedialabs.com/us/ml046-coomassie-brilliant-blue-stain.html,\Imagens\produtos\MB542-20PR.JPG,F
+"4X CAPITAL™ qPCR Probe Master Mix LROX, 1000rxn",Reagentes laboratoriais,qPCR,BiotechRabbit,BR0501502,"Nome do produto: 4X CAPITAL™ qPCR Probe Master Mix LROX, 1000 rxn
+
+Código fabricante: BR0501502
+
+Master Mix 4× otimizado para qPCR com sondas (probe-based) com referência de fluorescência ROX em baixa concentração (LROX), projetado para quantificação de sequências genômicas, cDNA e virais com alta sensibilidade. Fornece desempenho elevado em ensaios singleplex e multiplex, com alta especificidade e detecção sensível de alvos de baixa abundância, sendo adequado para aplicações como detecção de patógenos e estudos quantitativos. Compatível com uma ampla variedade de plataformas qPCR e sondas como TaqMan®, PrimeTime®, Molecular Beacons® e Scorpion®.",https://www.himedialabs.com/us/ml021-2x-laemmli-buffer.html,\Imagens\produtos\Rabbit.jpg,F
+"4X CAPITAL™ 1-Step qRT-PCR Probe Master Mix LROX, 1000rxn",Reagentes laboratoriais,qPCR,BiotechRabbit,BR0502102,"Nome do produto: 4X CAPITAL™ 1-Step qRT-PCR Probe Master Mix LROX, 1000 rxn
+
+Código fabricante: BR0502102
+
+Master Mix 4× para qRT-PCR one-step com sondas, contendo referência ROX em baixa concentração (LROX), que integra reverse transcriptase e PCR em um único tubo, permitindo a quantificação direta de RNA (mRNA, RNA total e RNA viral). Apresenta alta sensibilidade e especificidade em ensaios singleplex e multiplex, sendo indicada para amostras com cópias extremamente baixas, como em análises de patógenos. A combinação de enzimas e tampão proprietários assegura síntese eficiente de cDNA e amplificação qPCR no mesmo ensaio, com compatibilidade com plataformas qPCR e sondas como TaqMan®, PrimeTime®, Molecular Beacons® e Scorpion®.",https://www.himedialabs.com/us/bovine-serum-albumin.html,\Imagens\produtos\Rabbit.jpg,F
+"4X CAPITAL™ qPCR Green Master Mix LROX, 1000rxn",Reagentes laboratoriais,qPCR,BiotechRabbit,BR0501802,"Nome do produto: 4X CAPITAL™ qPCR Green Master Mix LROX, 1000 rxn
+
+Código fabricante: BR0501802
+
+Master Mix 4× para qPCR com química de corante intercalante (Green) contendo dye de referência ROX em baixa concentração (LROX), projetado para amplificação sensível e específica com excelente razão sinal-ruído e rápida taxa de extensão. Permite detecção eficiente de alvos de baixa abundância e minimiza a formação de dímeros de primers. Oferece desempenho robusto em análises de expressão gênica, variação do número de cópias (CNV) e outras aplicações quantificativas de DNA. Três versões estão disponíveis (sem ROX, LROX e HROX) para compatibilidade com plataformas qPCR que têm requisitos diferentes de referência de fluorescência.",https://www.himedialabs.com/us/ml202-5x-bradford-reagent.html,\Imagens\produtos\invitek.jpg,F
+"Hot-Start Taq DNA Polymerase, 5 U/µl, 500 Units",Reagentes laboratoriais,PCR,BiotechRabbit,BR0200102,"Nome do produto: Hot-Start Taq DNA Polymerase, 5 U/µl, 500 Units
+
+Código fabricante: BR0200102
+
+Polimerase Taq Hot-Start baseada em anticorpo para PCR, que permanece inativa durante a preparação da reação e é ativada apenas quando aquecida, garantindo alta especificidade, sensibilidade e baixos níveis de amplificação inespecífica. Adequada para PCR padrão de até ~3 kb, incluindo amplificação de alvos de baixa cópia, RT-PCR e clonagem TA. A formulação inclui tampão otimizado e MgCl₂ para resultados consistentes e rendimento elevado.",https://www.biotechrabbit.com/capital-qpcr-probe-mix-4x.html,\Imagens\produtos\1001136100.jpg,T
+"2X Hot-Start PCR Master Mix, 200 rxn",Reagentes laboratoriais,PCR,BiotechRabbit,BR0200205,"Nome do produto: 2X Hot-Start PCR Master Mix, 200 rxn
+
+Código fabricante: BR0200205
+
+Master Mix 2× pronto para PCR convencional com Hot-Start, contendo Hot Start Taq DNA Polymerase, dNTPs de alta qualidade e tampão otimizado, que elimina a necessidade de otimização de buffer e reduz o tempo de setup. Desenvolvido para amplificação de 0,2-3 kb com alta sensibilidade e baixo background, adequado para detecção de alvos de baixa cópia e clonagem TA. A enzima permanece inativa durante a preparação e é ativada em temperaturas elevadas, minimizando dímeros de primers e amplificações inespecíficas.",https://www.biotechrabbit.com/capital-qrt-pcr-probe-mix-4x.html,\Imagens\produtos\G1245-500G.jpg,T
+"2X Multiplex Hot-Start PCR Master Mix, 50 rxn of 50 µl",Reagentes laboratoriais,PCR,BiotechRabbit,BR0200801,"Nome do produto: 2X Multiplex Hot-Start PCR Master Mix, 50 rxn of 50 µl
+
+Código fabricante: BR0200801
+
+Master Mix 2× formulado para PCR multiplex com Hot-Start, com Hot Start Taq DNA Polymerase, dNTPs de alta qualidade e tampão exclusivo para multiplex, projetado para amplificação simultânea robusta de vários alvos (50 bp–2 kb) em uma única reação. A tecnologia Hot-Start aumenta especificidade e sensibilidade, e os realçadores (enhancers) permitem amplificação de alvos de baixa abundância ou ricos em GC sem pré-otimização.",https://www.biotechrabbit.com/capital-qpcr-green-mix-4x.html,\Imagens\produtos\M1363-500G.jpg,T
+"ExactiFi™ Hot-Start DNA Polymerase, 1 U/µl, 100 Units",Reagentes laboratoriais,"PCR, NGS",BiotechRabbit,BR0300501,"Nome do produto: ExactiFi™ Hot-Start DNA Polymerase, 1 U/µl, 100 Units
+
+Código fabricante: BR0300501
+
+Polimerase Hot-Start de alta fidelidade, altamente purificada e termoestável, com atividade de prova-leitura (proofreading), oferecendo ≈50× maior fidelidade que Taq DNA polymerase. Capaz de amplificar alvos de 5–10 kb, produzir produtos de PCR blunt-ended e resistir a inibidores, proporcionando desempenho robusto em aplicações que exigem precisão, como clonagem e PCR de alta fidelidade.",https://www.biotechrabbit.com/hot-start-taq-dna-polymerase-5-u-l.html,\Imagens\produtos\invitek.jpg,F
+"MMuLV Reverse Transcriptase, 200 U/µl, 10000 Units",Reagentes laboratoriais,"PCR, qPCR, NGS",BiotechRabbit,BR0400201,"Nome do produto: MMuLV Reverse Transcriptase, 200 U/µl, 10 000 Units
+
+Código fabricante: BR0400201
+
+Transcriptase reversa baseada na MMuLV Reverse Transcriptase, fornecida a 200 U/µl, em apresentação total de 10 000 unidades, indicada para síntese de cDNA a partir de RNA total ou mRNA. Compatível com primers oligo(dT), random primers e primers específicos, sendo adequada para aplicações downstream como RT-PCR, qPCR e clonagem. A alta concentração permite flexibilidade no preparo das reações e padronização de diferentes protocolos de transcrição reversa.",https://www.biotechrabbit.com/hot-start-pcr-master-mix-2x.html,\Imagens\produtos\AL006A-500ML.jpg,F
+"cDNA Synthesis Kit, 125 rxn of 20 µl",Reagentes laboratoriais,"PCR, qPCR, NGS",BiotechRabbit,BR0400403,"Nome do produto: cDNA Synthesis Kit, 125 rxn of 20 µl
+
+Código fabricante: BR0400403
+
+Kit completo para síntese de cDNA, formulado para 125 reações de 20 µl, contendo transcriptase reversa, tampão de reação, dNTPs e primers. Desenvolvido para conversão reprodutível de RNA total ou mRNA em cDNA, reduzindo variabilidade experimental e simplificando o fluxo de trabalho para aplicações posteriores como PCR convencional e qPCR.",https://www.biotechrabbit.com/multiplex-pcr-master-mix-2x.html,\Imagens\produtos\AL028A.jpg,F
+"AllScript™ Reverse Transcriptase, 4 U/µl, 400 Units",Reagentes laboratoriais,"PCR, qPCR, NGS",BiotechRabbit,BR0400601,"Nome do produto: AllScript™ Reverse Transcriptase, 4 U/µl, 400 Units
+
+Código fabricante: BR0400601
+
+Transcriptase reversa AllScript™ fornecida a 4 U/µl (400 unidades), projetada para transcrição reversa altamente específica e sensível de RNA em cDNA. Indicada para aplicações como reverse transcription padrão, síntese de ds cDNA para clonagem, RT-PCR, qRT-PCR, RACE e análises de extensão de RNA. A enzima possui afinidade aumentada por RNA, permitindo alto rendimento de cDNA mesmo com alvos de baixa cópia e estruturas secundárias complexas.",https://www.biotechrabbit.com/exactifi-hot-start-dna-polymerase.html,\Imagens\produtos\TCL280-500ML.JPG,F
+"4X CAPITAL™ qPCR Probe Master Mix, lyophilized, 200 rxn",Reagentes laboratoriais,qPCR,BiotechRabbit,BR0502601,"Nome do produto: 4X CAPITAL™ qPCR Probe Master Mix, lyophilized, 200 rxn
+
+Código fabricante: BR0502601
+
+Master Mix 4× liofilizado para qPCR com sondas, composto por enzimas e tampão proprietários estabilizados por liofilização para armazenamento e transporte à temperatura ambiente. Otimizado para quantificação em tempo real de sequências genômicas, cDNA e RNA viral, com alta sensibilidade e especificidade em ensaios singleplex e multiplex. Formato liofilizado permite conveniência logística, mantendo desempenho comparável à versão líquida. Compatível com sondas de detecção como TaqMan®, PrimeTime®, Molecular Beacons® e Scorpion®.",https://www.biotechrabbit.com/mmulv-reverse-transcriptase-200-u-l.html,\Imagens\produtos\MH033-500G.jpg,F
+"5X CAPITAL™ 1-Step qRT-PCR Probe Master Mix, lyophilized, 200 rxn",Reagentes laboratoriais,qPCR,BiotechRabbit,BC0503202,"Nome do produto: 5X CAPITAL™ 1-Step qRT-PCR Probe Master Mix, lyophilized, 200 rxn
+
+Código fabricante: BC0503202
+
+Master Mix 5× liofilizado para qRT-PCR one-step com sondas, integrando síntese de cDNA e amplificação PCR em uma única reação. A forma liofilizada confere estabilidade para envio e armazenamento sem resfriamento. Desenvolvido para quantificação em tempo real de RNA (incluindo mRNA, RNA total e RNA viral) com alta sensibilidade e especificidade, em detecções singleplex e multiplex. A tecnologia do fabricante proporciona eficiência na síntese de cDNA e amplificação em um único tubo.",https://www.biotechrabbit.com/cdna-synthesis-kit.html,\Imagens\produtos\TCL280-500ML.JPG,F
+"GenUP™ FFPE Paraffin Removal Solution, 50 mL",Reagentes laboratoriais,"Extração, PCR, qPCR, ddPCR",BiotechRabbit,BR0701602,"Nome do produto: GenUP™ FFPE Paraffin Removal Solution, 50 mL
+
+Código fabricante: BR0701602
+
+Solução GenUP™ para remoção de parafina de cortes de amostras FFPE (Formalin-Fixed Paraffin-Embedded), fornecida em frasco de 50 mL. Formulação odor-free e bio-friendly, projetada para desparafinação em uma etapa e em minutos, substituindo métodos com solventes tóxicos ou inflamáveis. Após a remoção de parafina, a amostra está pronta para etapas posteriores de purificação de DNA ou RNA usando kits de isolamento comuns.",https://www.biotechrabbit.com/allscript-reverse-transcriptase-4-u-l.html,\Imagens\produtos\invitek.jpg,F
