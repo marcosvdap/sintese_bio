@@ -40,7 +40,30 @@ function initDatabase() {
     if (err) {
       console.error('Erro ao criar tabela produtos:', err);
     } else {
-      userpadrao();
+      criarTabelaEventos(); // -> Alterado: Agora chama a criação de eventos antes do userpadrao
+    }
+  });
+}
+
+// -> NOVA FUNÇÃO: Adicionada para criar a tabela de eventos
+function criarTabelaEventos() {
+  const sqlEventos = `
+    CREATE TABLE IF NOT EXISTS eventos (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      titulo TEXT NOT NULL,
+      data_inicio DATETIME NOT NULL,
+      data_fim DATETIME,
+      link TEXT,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    )
+  `;
+
+  db.run(sqlEventos, (err) => {
+    if (err) {
+      console.error('Erro ao criar tabela eventos:', err);
+    } else {
+      userpadrao(); // Continua o fluxo normal do seu código
     }
   });
 }
