@@ -20,19 +20,16 @@ const Catalogo = () => {
   const produtosFiltrados = filtrarProdutos(produtos, filtroCategoria, busca, filtroTipo, filtroAplicacao);
   const categorias = obterCategorias(produtos);
   
-  // Extrair tipos únicos dos produtos
   const obterTipos = (produtos) => {
     const tipos = ['todos', ...new Set(produtos.map(p => p.tipo).filter(Boolean))];
     return tipos;
   };
 
-  // Extrair aplicações únicas dos produtos - fazendo split por vírgula
   const obterAplicacoes = (produtos) => {
     const aplicacoesSet = new Set();
     
     produtos.forEach(produto => {
       if (produto.aplicacao) {
-        // Split por vírgula e limpa espaços em branco
         const apps = produto.aplicacao.split(',').map(app => app.trim());
         apps.forEach(app => {
           if (app) aplicacoesSet.add(app);
@@ -49,21 +46,22 @@ const Catalogo = () => {
   return (
     <div className={styles.container}>
       <Cabecalho />
-      <div className={styles.content}>
-        <Filtro
-          busca={busca}
-          setBusca={setBusca} 
-          filtroCategoria={filtroCategoria}
-          setFiltroCategoria={setFiltroCategoria}
-          filtroTipo={filtroTipo}
-          setFiltroTipo={setFiltroTipo}
-          filtroAplicacao={filtroAplicacao}
-          setFiltroAplicacao={setFiltroAplicacao}
-          categorias={categorias}
-          tipos={tipos}
-          aplicacoes={aplicacoes}
-        />
 
+      <Filtro
+        busca={busca}
+        setBusca={setBusca} 
+        filtroCategoria={filtroCategoria}
+        setFiltroCategoria={setFiltroCategoria}
+        filtroTipo={filtroTipo}
+        setFiltroTipo={setFiltroTipo}
+        filtroAplicacao={filtroAplicacao}
+        setFiltroAplicacao={setFiltroAplicacao}
+        categorias={categorias}
+        tipos={tipos}
+        aplicacoes={aplicacoes}
+      />
+
+      <div className={styles.content}>
         {produtosFiltrados.length === 0 ? (
           <div className={styles.emptyMessage}>
             {produtos.length === 0 ? 'Carregando produtos...' :
