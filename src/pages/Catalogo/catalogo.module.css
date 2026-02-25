@@ -1,149 +1,125 @@
-.container {
-  min-height: 100vh;
-  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
-  padding-top: 0;
-}
-
-.header {
-  background: linear-gradient(135deg, #39bde6 0%, #253786 100%);
-  color: white;
-  padding: 4rem 2rem 4rem 2rem;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 3rem;
- 
-}
-
-.header img {
-  position: absolute;       /* tira do fluxo normal */
-  left: 20px;               /* distância da esquerda */
-  top: 30%;                 /* centraliza verticalmente */
-  transform: translateY(-50%);
-  max-width: 1000px;
-  height: auto;
-}
-
-.header h1 {
-
-  font-size: 3.5rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  position: relative;
-  z-index: 2;
-  
- 
-}
-
-.header p {
-  font-size: 1.3rem;
-  opacity: 0.95;
-  max-width: 600px;
-  margin: 0 auto 2rem auto;
-  line-height: 1.6;
-  position: relative;
-  z-index: 2;
- 
-}
-
-.breadcrumb {
-  color: #253786;
-  text-decoration: none;
-  transition: color 0.3s ease;
-  font-weight: 100;
-  font-size: 1.3rem;
-}
-
-.breadcrumb a:hover {
-  color: #39bde6;
-}
-
-.statsContainer {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-bottom: 30px;
-  flex-wrap: wrap;
-}
-
-.statBox {
-  text-align: center;
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  min-width: 120px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.statBoxValue {
-  font-size: 24px;
-  font-weight: bold;
-  color: #253786;
-}
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.5rem 3rem; /* Aumentei bastante o padding */
-  background: var(--gradient);
-  border-bottom: 2px solid #e5e7eb; /* Borda mais grossa */
-  min-height: 90px; /* Cabeçalho mais alto */
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra no cabeçalho */
-}
-.statBoxLabel {
-  font-size: 12px;
-  color: #253786;
-  text-transform: uppercase;
-}
-
-.carrinhoButton {
-  position: fixed;
-  top: 50%;
-  right: 2rem;
-  transform: translateY(-50%);
-  background: linear-gradient(135deg, #253786 0%, #39bde6 100%);
-  color: white;
-  border: none;
-  padding: 1rem 1.5rem;
-  border-radius: 50px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 20px rgba(37, 55, 134, 0.3);
-  z-index: 999;
-  min-width: 160px;
-  
-}
-
+/* --- CONTAINER DO GRID (O PAI) --- */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
-  margin-bottom: 40px;
-  margin-top: 40px;
+  /* 1. 'auto-fit' faz os cards se espalharem para ocupar a linha toda.
+     2. '320px' é a nova largura mínima (cards maiores).
+  */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  width: 100%;
+  max-width: 1400px; /* Aumentei um pouco o limite total para dar liberdade */
+  margin: 40px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
-.emptyMessage {
-  text-align: center;
-  padding: 60px 20px;
-  color: #666;
-  font-size: 18px;
+/* --- SEU CARD (O FILHO) --- */
+/* Mantive o nome .carroselCard pois é o que está no seu componente ProdutoCard */
+.carroselCard {
   background: white;
+  border: 3px solid #253785;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+
+  /* --- AJUSTE CRÍTICO PARA O GRID --- */
+  width: 100%; /* Ocupa 100% da largura da COLUNA do grid, não da tela */
+  max-width: 100%; /* Removemos limites fixos para ele fluir na grade */
+  min-height: 400px; /* Altura mínima para ficarem alinhados */
+  justify-content: space-between;
+}
+
+/* O resto do seu CSS original continua aqui... */
+.carroselCard:hover {
+  background: #253785;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(37, 55, 133, 0.2);
+}
+
+.carroselCard:hover .cardBtn {
+  background-color: #FCC204;
+  transform: scale(1.05);
+}
+
+.carroselCard:hover .carroselCardContent h3 {
+  color: #FFFFFF;
+}
+
+.imageContainer {
+  width: 90%;
+  height: 180px; /* Ajustei levemente para caber bem no grid */
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 1.5rem;
   border-radius: 8px;
+  border: 2px solid #253785;
 }
 
-.emptyMessage small {
-  color: #999;
-  font-size: 14px;
+.carroselCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Garante que o produto apareça inteiro */
+  padding: 10px;
 }
 
-.content {
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 2rem;
+.carroselCardContent {
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.carroselCardContent h3 {
+  font-size: 1rem;
+  font-weight: 850;
+  color: #253785;
+  margin-bottom: 15px;
+}
+
+.cardBtn {
+  max-width: 150px;
+  background-color: #00bcd4;
+  color: #253785;
+  padding: 0.5rem;
+  border-radius: 25px;
+  font-weight: 800;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border: none;
+  margin: 0 auto; /* Centraliza o botão */
+  display: block;
+}
+
+/* --- ESTILOS DA PAGINAÇÃO (Mantive simples) --- */
+.paginacaoSimples {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 40px 0;
+  width: 100%;
+}
+
+.btnNav {
+  background-color: #253786;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btnNav:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }

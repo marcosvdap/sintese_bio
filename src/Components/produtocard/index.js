@@ -22,6 +22,11 @@ const ProdutoCard = ({ produto }) => {
     // Feedback visual
     setAdicionado(true);
     setTimeout(() => setAdicionado(false), 2000);
+    
+    setTimeout(() => {
+      fecharModal();
+      setAdicionado(false); // Reseta o estado (opcional, pois o modal vai desmontar)
+    }, 1000);
   };
 
   const handleAbrirLink = () => {

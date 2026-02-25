@@ -1,4 +1,4 @@
-/* Estilo do Card - Idêntico ao CardCarrossel */
+/* Estilo do Card - Ajustado para o Grid */
 .carroselCard {
   background: white;
   border: 3px solid #253785;
@@ -9,6 +9,13 @@
   flex-direction: column;
   align-items: center;
   cursor: pointer;
+  
+  /* --- NOVO: Ajustes para preencher o Grid corretamente --- */
+  width: 100%;
+  max-width: 100%; /* Remove limites antigos para fluir no grid */
+  min-height: 420px; /* Altura mínima uniforme */
+  justify-content: space-between;
+  margin: 0;
 }
 
 .carroselCard:hover {
@@ -27,36 +34,36 @@
 }
 
 .imageContainer {
-  width: 80%;
-  height: 160px;
-  background-color: #f9f9f9;
+  width: 90%; /* Levemente maior para o grid */
+  height: 200px; /* Aumentei a altura para a imagem respirar */
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  margin-top: 2rem;
-  border-radius: 8px;
-  border: 2px solid #253785;
+  margin-top: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
 }
 
 .carroselCard img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain; /* Garante que o produto apareça inteiro */
   display: block;
   border-radius: 0;
-  padding: 0;
+  padding: 10px;
   border: none;
 }
 
 .carroselCardContent {
-  padding: 1rem 1.2rem 1.2rem;
+  padding: 1rem 1.2rem 1.5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
-  height: 120px;
-  justify-content: space-between;
+  gap: 0.8rem;
+  width: 100%;
+  flex-grow: 1;
 }
 
 .carroselCardContent h3 {
@@ -64,24 +71,25 @@
   font-weight: 850;
   color: #253785;
   margin: 0;
-  line-height: 1.3;
-  margin-top: 1rem;
+  line-height: 1.4;
+  margin-top: 0.5rem;
 }
 
 .cardBtn {
-  max-width: 150px;
+  max-width: 100%;
+  width: 80%; /* Botão mais largo no card */
   background-color: #00bcd4;
   color: #253785;
-  padding: 0.5rem 0.5rem;
+  padding: 0.6rem;
   border-radius: 25px;
   text-decoration: none;
   font-weight: 800;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
   display: inline-block;
   transition: all 0.3s ease;
   text-align: center;
-  margin: 0 auto;
+  margin: auto auto 0 auto; /* Empurra para o final */
   border: none;
   cursor: pointer;
 }
@@ -91,7 +99,7 @@
   transform: scale(1.05);
 }
 
-/* Modal */
+/* --- MODAL --- */
 .modalOverlay {
   position: fixed;
   top: 0;
@@ -118,7 +126,7 @@
   max-width: 1000px;
   width: 90%;
   max-height: 90vh;
-  overflow-y: auto;
+  overflow-y: auto; /* Scroll geral do modal se a tela for pequena */
   animation: slideUp 0.3s ease;
 }
 
@@ -156,6 +164,7 @@
   display: flex;
   gap: 3rem;
   padding: 3rem;
+  align-items: flex-start; /* Alinha no topo */
 }
 
 .modalImagem {
@@ -181,7 +190,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.2rem;
 }
 
 .modalInfo h2 {
@@ -193,7 +202,7 @@
 }
 
 .infoSection {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .infoLabel {
@@ -209,18 +218,46 @@
   font-weight: 600;
 }
 
+/* --- NOVO: Scroll na Descrição --- */
 .infoDescricao {
   font-size: 0.95rem;
   line-height: 1.6;
   color: #555;
   text-align: justify;
+  
+  /* Limita altura e cria rolagem */
+  max-height: 150px;
+  overflow-y: auto;
+  padding-right: 10px;
+  
+  /* Estilo da borda interna para separar visualmente */
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Scrollbar Bonita (Chrome/Safari/Edge) */
+.infoDescricao::-webkit-scrollbar {
+  width: 6px;
+}
+.infoDescricao::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+.infoDescricao::-webkit-scrollbar-thumb {
+  background: #253785;
+  border-radius: 4px;
+}
+.infoDescricao::-webkit-scrollbar-thumb:hover {
+  background: #1a2a5e;
 }
 
 .modalBotoes {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-top: auto;
+  margin-top: 20px;
 }
 
 .btnDetalhes,
@@ -259,14 +296,13 @@
   box-shadow: 0 4px 12px rgba(0, 188, 212, 0.3);
 }
 
-/* ========================================
-   APENAS ADICIONAR ESTES ESTILOS NOVOS
-   (Para o botão adicionar ao carrinho)
-   ======================================== */
-
-/* Animação de feedback quando adicionar */
-.btnAdicionar.adicionado {
-  background: #4caf50;
+/* --- NOVO: Feedback de Adicionado --- */
+.adicionado {
+  background-color: #4caf50 !important; /* Verde Sucesso */
+  color: white !important;
+  cursor: default;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(76, 175, 80, 0.4);
 }
 
 /* Responsividade */
