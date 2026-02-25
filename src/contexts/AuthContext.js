@@ -53,7 +53,7 @@ export const AuthProvider = ({ children }) => {
     }
 
     try {
-      const response = await fetch('http://localhost:5000/api/auth/verify', {
+      const response = await fetch('http://201.23.76.238:5000/api/auth/verify', {
         headers: {
           'Authorization': `Bearer ${token}`
         }
@@ -83,7 +83,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (username, password) => {
     try {
-      const response = await fetch('http://localhost:5000/api/auth/login', {
+      const response = await fetch('http://201.23.76.238:5000/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

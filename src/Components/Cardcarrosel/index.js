@@ -7,7 +7,7 @@ const CardCarrosel = () => {
 
   // Fetch dos produtos do backend
   useEffect(() => {
-    fetch('http://localhost:5000/api/produtos/destaque')
+    fetch('http://201.23.76.238:5000/api/produtos/destaque')
       .then(res => {
         if (!res.ok) throw new Error('Erro ao buscar produtos');
         return res.json();

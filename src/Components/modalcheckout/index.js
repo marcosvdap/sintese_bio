@@ -93,7 +93,7 @@ const ModalCheckout = ({ isOpen, onClose, carrinho }) => {
 
       console.log("📤 Enviando cotação:", dadosEnvio);
 
-      const response = await fetch("http://localhost:5000/api/enviar-email", {
+      const response = await fetch("http://201.23.76.238:5000/api/enviar-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

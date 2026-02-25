@@ -76,7 +76,7 @@ const Contato = () => {
 
     try {
       // Aqui você vai fazer a requisição para sua API
-      const response = await fetch('http://localhost:5000/api/contato', {
+      const response = await fetch('http://201.23.76.238:5000/api/contato', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

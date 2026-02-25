@@ -1,11 +1,10 @@
 /* filtrosbusca.module.css */
 .filtrosContainer {
-  width: 100vw;
-  margin-left: calc(-50vw + 40%);
+  width: 100%;
+  margin-left: 0;
   padding: 2.5rem 4rem;
   background: #d3d3d3;
 }
-
 .buscaWrapper {
   position: relative;
   max-width: 600px;
@@ -43,13 +42,11 @@
 }
 
 /* Header do Filtro */
-.filtroHeader {
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  background: #253785;
-  padding: 1rem 4rem;
-  cursor: pointer;
-  transition: background 0.3s ease;
+.filtrosContainer {
+  width: 100%;
+  margin-left: 0;
+  padding: 2.5rem 4rem;
+  background: #d3d3d3;
 }
 
 .filtroHeader:hover {
@@ -81,8 +78,8 @@
 
 /* Conteúdo do Filtro */
 .filtroContent {
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  width: 100%;
+  margin-left: 0;
   background: white;
   padding: 2rem 4rem;
   border-bottom: 3px solid #253785;

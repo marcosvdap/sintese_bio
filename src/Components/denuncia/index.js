@@ -34,7 +34,7 @@ const Denuncia = () => {
         setMensagemStatus({ tipo: '', texto: '' });
 
         try {
-            const response = await fetch('http://localhost:5000/api/denuncia', {
+            const response = await fetch('http://201.23.76.238:5000/api/denuncia', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

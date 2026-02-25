@@ -7,7 +7,7 @@ const Evento = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/eventos')
+    fetch('http://201.23.76.238:5000/api/eventos')
       .then(res => res.json())
       .then(data => {
         setEventos(data);
