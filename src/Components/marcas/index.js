@@ -1,32 +1,28 @@
 import { useState } from 'react';
 import styles from './marcas.module.css';
 
-// Importe suas imagens aqui
 import idtLogo from '../../assets/imagens/IDT.png';
 import himediaLogo from '../../assets/imagens/HIMEDIA.png';
 import biotechrabbitLogo from '../../assets/imagens/BIOTECH.png';
-// Adicione mais imports conforme necessário
+import biorad from '../../assets/imagens/BIORAD.png';
 
 const Marcas = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   
+  // Agora cada marca tem imagem + url
   const marcas = [
-    idtLogo,
-    himediaLogo,
-    biotechrabbitLogo,
-    // Adicione mais imagens aqui
+    { logo: idtLogo,            url: 'https://www.idtdna.com' },
+    { logo: himediaLogo,        url: 'https://www.himedialabs.com' },
+    { logo: biotechrabbitLogo,  url: 'https://www.biotechrabbit.com' },
+    { logo: biorad,             url: 'https://www.bio-rad.com' },
   ];
 
   const nextSlide = () => {
-    if (currentIndex < marcas.length - 3) {
-      setCurrentIndex(currentIndex + 1);
-    }
+    if (currentIndex < marcas.length - 3) setCurrentIndex(currentIndex + 1);
   };
 
   const prevSlide = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
-    }
+    if (currentIndex > 0) setCurrentIndex(currentIndex - 1);
   };
 
   return (
@@ -47,7 +43,10 @@ const Marcas = () => {
         <div className={styles.marcasWrapper}>
           {marcas.slice(currentIndex, currentIndex + 3).map((marca, index) => (
             <div key={index} className={styles.marcaItem}>
-              <img src={marca} alt={`Marca ${index + 1}`} />
+              {/* Envolve a imagem com um link */}
+              <a href={marca.url} target="_blank" rel="noopener noreferrer">
+                <img src={marca.logo} alt={`Marca ${index + 1}`} />
+              </a>
             </div>
           ))}
         </div>

@@ -58,7 +58,7 @@ const Sobre = () => {
         </div>
       </section>
       <div className={styles.sobreheader2}>
-        <h2>CONHEÇA NOSSOS ESCRITORIOS</h2> 
+        <h2>CONHEÇA NOSSOS ESCRITÓRIOS</h2> 
       </div>
       <div className={styles.mapaContainer}>  
         <div className={styles.sobremapa}>

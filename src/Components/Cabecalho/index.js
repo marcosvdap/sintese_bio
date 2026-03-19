@@ -42,7 +42,7 @@ function Cabecalho() {
                 </Botao>
                 <div className={styles.divisor}></div>
                 <Link to="/catalogo" className={styles.linkButton}>
-                    CATALOGO
+                    CATÁLOGO
                 </Link>
             </nav>
 

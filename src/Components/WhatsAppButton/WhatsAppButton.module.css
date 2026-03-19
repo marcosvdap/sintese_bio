@@ -1,0 +1,25 @@
+/* Components/WhatsAppButton/whatsappButton.module.css */
+.whatsappBtn {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;         /* ou right: 24px se preferir no canto direito */
+  z-index: 9999;
+
+  background-color: #25D366;
+  color: #fff;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.whatsappBtn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}

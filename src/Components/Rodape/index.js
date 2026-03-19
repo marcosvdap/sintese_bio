@@ -36,16 +36,16 @@ function Rodape() {
         <div className={styles.rodapeColuna}>
           <h3>NOS SIGA NAS REDES SOCIAIS</h3>
           <div className={styles.redesSociais}>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/sintesebiotecnologia/" target="_blank" rel="noopener noreferrer">
               <img src={iconInstagram} alt="Instagram" />
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/sintesebiotecnologia" target="_blank" rel="noopener noreferrer">
               <img src={iconFacebook} alt="Facebook" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/company/sintese-biotecnologia" target="_blank" rel="noopener noreferrer">
               <img src={iconLinkedin} alt="LinkedIn" />
             </a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/@RibossomosCanal" target="_blank" rel="noopener noreferrer">
               <img src={iconYoutube} alt="YouTube" />
             </a>
           </div>
