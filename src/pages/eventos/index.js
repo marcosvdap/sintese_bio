@@ -14,7 +14,6 @@ function Eventos() {
             <WhatsAppButton />
         </>
     );
-
 }
 export default Eventos;
 

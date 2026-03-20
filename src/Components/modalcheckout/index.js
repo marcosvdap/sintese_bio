@@ -1,88 +1,148 @@
-// src/Components/catalogo/ModalCheckout/index.jsx
 import React, { useState } from 'react';
 import styles from './modalcheckout.module.css';
 
 const ModalCheckout = ({ isOpen, onClose, carrinho }) => {
   const [formData, setFormData] = useState({
-    nome: '',
-    email: '',
+    // Dados de Faturamento
+    razaoSocial: '',
+    cnpjCpf: '',
+    faturamento: '',
+    enderecoFaturamento: '',
+    emailFaturamento: '',
+    telefoneFaturamento: '',
+
+    // Dados de Entrega
+    cnpjCpfEntrega: '',
+    destinatario: '',
+    enderecoEntrega: '',
+    bairro: '',
+    cep: '',
+    numero: '',
+    complemento: '',
     instituicao: '',
-    telefone: '',
+    sala: '',
+    bloco: '',
+    laboratorio: '',
+    departamento: '',
+    emailEntrega: '',
+    telefoneEntrega: '',
+
+    // Dados do Projeto
+    dadosProjeto: '',
+
+    // Plano de compra
+    parcelas: '',
     dataEntrega: '',
-    parcelas: ''
   });
 
+  const [mesmoEndereco, setMesmoEndereco] = useState(false);
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
 
-  // Validação dos campos
+  const formatPhone = (value) => {
+    let v = value.replace(/\D/g, '');
+    if (v.length > 11) v = v.slice(0, 11);
+    if (v.length > 6) return `(${v.slice(0,2)}) ${v.slice(2,7)}-${v.slice(7)}`;
+    if (v.length > 2) return `(${v.slice(0,2)}) ${v.slice(2)}`;
+    if (v.length > 0) return `(${v}`;
+    return v;
+  };
+
+  const formatCnpjCpf = (value) => {
+    let v = value.replace(/\D/g, '');
+    if (v.length <= 11) {
+      v = v.replace(/(\d{3})(\d)/, '$1.$2');
+      v = v.replace(/(\d{3})(\d)/, '$1.$2');
+      v = v.replace(/(\d{3})(\d{1,2})$/, '$1-$2');
+    } else {
+      v = v.slice(0, 14);
+      v = v.replace(/^(\d{2})(\d)/, '$1.$2');
+      v = v.replace(/^(\d{2})\.(\d{3})(\d)/, '$1.$2.$3');
+      v = v.replace(/\.(\d{3})(\d)/, '.$1/$2');
+      v = v.replace(/(\d{4})(\d)/, '$1-$2');
+    }
+    return v;
+  };
+
+  const formatCep = (value) => {
+    let v = value.replace(/\D/g, '').slice(0, 8);
+    if (v.length > 5) return `${v.slice(0,5)}-${v.slice(5)}`;
+    return v;
+  };
+
+  const handleChange = (field, value) => {
+    setFormData(prev => ({ ...prev, [field]: value }));
+    if (errors[field]) setErrors(prev => ({ ...prev, [field]: '' }));
+  };
+
+  const handleMesmoEndereco = (checked) => {
+    setMesmoEndereco(checked);
+    if (checked) {
+      setFormData(prev => ({
+        ...prev,
+        cnpjCpfEntrega: prev.cnpjCpf,
+        enderecoEntrega: prev.enderecoFaturamento,
+        emailEntrega: prev.emailFaturamento,
+        telefoneEntrega: prev.telefoneFaturamento,
+      }));
+    }
+  };
+
   const validateForm = () => {
     const newErrors = {};
-
-    if (!formData.nome.trim()) {
-      newErrors.nome = 'Nome é obrigatório';
-    } else if (formData.nome.trim().length < 3) {
-      newErrors.nome = 'Nome deve ter pelo menos 3 caracteres';
-    }
-
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!formData.email.trim()) {
-      newErrors.email = 'Email é obrigatório';
-    } else if (!emailRegex.test(formData.email)) {
-      newErrors.email = 'Email inválido';
-    }
-
-    if (!formData.dataEntrega) {
-      newErrors.dataEntrega = 'Data de entrega é obrigatória';
-    }
-    const phoneRegex = /^\(?[1-9]{2}\)? ?(?:[2-8]|9[1-9])[0-9]{3}-?[0-9]{4}$/;
-    if (!formData.telefone.trim()) {
-      newErrors.telefone = 'Telefone é obrigatório';
-    } else if (!phoneRegex.test(formData.telefone.replace(/\D/g, ''))) {
-      newErrors.telefone = 'Telefone inválido';
-    }
-
-    if (!formData.parcelas) {
-      newErrors.parcelas = 'Selecione o plano de compra';
-    }
-
+    if (!formData.razaoSocial.trim()) newErrors.razaoSocial = 'Campo obrigatório';
+    if (!formData.cnpjCpf.trim()) newErrors.cnpjCpf = 'Campo obrigatório';
+    if (!formData.enderecoFaturamento.trim()) newErrors.enderecoFaturamento = 'Campo obrigatório';
+    if (!formData.emailFaturamento.trim()) newErrors.emailFaturamento = 'Campo obrigatório';
+    if (!formData.telefoneFaturamento.trim()) newErrors.telefoneFaturamento = 'Campo obrigatório';
+    if (!formData.destinatario.trim()) newErrors.destinatario = 'Campo obrigatório';
+    if (!formData.enderecoEntrega.trim()) newErrors.enderecoEntrega = 'Campo obrigatório';
+    if (!formData.bairro.trim()) newErrors.bairro = 'Campo obrigatório';
+    if (!formData.cep.trim()) newErrors.cep = 'Campo obrigatório';
+    if (!formData.numero.trim()) newErrors.numero = 'Campo obrigatório';
+    if (!formData.emailEntrega.trim()) newErrors.emailEntrega = 'Campo obrigatório';
+    if (!formData.telefoneEntrega.trim()) newErrors.telefoneEntrega = 'Campo obrigatório';
+    if (!formData.parcelas) newErrors.parcelas = 'Selecione o plano de compra';
+    if (!formData.dataEntrega) newErrors.dataEntrega = 'Campo obrigatório';
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
 
-  // Formatar telefone
-  const handlePhoneChange = (e) => {
-    let value = e.target.value.replace(/\D/g, '');
-    if (value.length <= 11) {
-      if (value.length > 6) {
-        value = `(${value.slice(0, 2)}) ${value.slice(2, 7)}-${value.slice(7)}`;
-      } else if (value.length > 2) {
-        value = `(${value.slice(0, 2)}) ${value.slice(2)}`;
-      } else if (value.length > 0) {
-        value = `(${value}`;
-      }
-    }
-    setFormData({ ...formData, telefone: value });
-  };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    if (!validateForm()) {
-      return;
-    }
-
+    if (!validateForm()) return;
     setIsSubmitting(true);
 
     try {
       const dadosEnvio = {
-        nome: formData.nome,
-        email: formData.email,
-        instituicao: formData.instituicao,
-        telefone: formData.telefone,
-        dataEntrega: formData.dataEntrega,
+        faturamento: {
+          razaoSocial: formData.razaoSocial,
+          cnpjCpf: formData.cnpjCpf,
+          faturamento: formData.faturamento,
+          endereco: formData.enderecoFaturamento,
+          email: formData.emailFaturamento,
+          telefone: formData.telefoneFaturamento,
+        },
+        entrega: {
+          cnpjCpf: formData.cnpjCpfEntrega,
+          destinatario: formData.destinatario,
+          endereco: formData.enderecoEntrega,
+          bairro: formData.bairro,
+          cep: formData.cep,
+          numero: formData.numero,
+          complemento: formData.complemento,
+          instituicao: formData.instituicao,
+          sala: formData.sala,
+          bloco: formData.bloco,
+          laboratorio: formData.laboratorio,
+          departamento: formData.departamento,
+          email: formData.emailEntrega,
+          telefone: formData.telefoneEntrega,
+        },
+        projeto: formData.dadosProjeto,
         parcelas: formData.parcelas,
+        dataEntrega: formData.dataEntrega,
         itens: carrinho.map(item => ({
           nome: item.nome,
           empresa: item.categoria || 'N/A',
@@ -91,52 +151,39 @@ const ModalCheckout = ({ isOpen, onClose, carrinho }) => {
         }))
       };
 
-      console.log("📤 Enviando cotação:", dadosEnvio);
-
       const response = await fetch("http://201.23.76.238:5000/api/enviar-email", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(dadosEnvio)
       });
 
       const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data?.message || `Erro HTTP: ${response.status}`);
-      }
+      if (!response.ok) throw new Error(data?.message || `Erro HTTP: ${response.status}`);
 
       if (data?.success) {
-        console.log("✅ Cotação enviada com sucesso!");
         setShowSuccess(true);
-
         setTimeout(() => {
           onClose(true);
           setShowSuccess(false);
           setFormData({
-            nome: '',
-            email: '',
-            telefone: '',
-            dataEntrega: '',
-            parcelas: ''
+            razaoSocial: '', cnpjCpf: '', faturamento: '', enderecoFaturamento: '',
+            emailFaturamento: '', telefoneFaturamento: '', cnpjCpfEntrega: '',
+            destinatario: '', enderecoEntrega: '', bairro: '', cep: '', numero: '',
+            complemento: '', instituicao: '', sala: '', bloco: '', laboratorio: '',
+            departamento: '', emailEntrega: '', telefoneEntrega: '', dadosProjeto: '',
+            parcelas: '', dataEntrega: '',
           });
         }, 3000);
       } else {
         throw new Error(data?.message || "Erro ao enviar cotação");
       }
-
     } catch (error) {
-      console.error("❌ Erro:", error);
-
       let mensagemErro = "Erro ao processar pedido. ";
-
       if (error.message.includes("Failed to fetch")) {
         mensagemErro += "Servidor não está respondendo.";
       } else {
         mensagemErro += error.message;
       }
-
       alert(mensagemErro);
       setErrors({ submit: mensagemErro });
     } finally {
@@ -145,21 +192,11 @@ const ModalCheckout = ({ isOpen, onClose, carrinho }) => {
   };
 
   const handleOverlayClick = (e) => {
-    if (e.target === e.currentTarget && !isSubmitting) {
-      onClose(false);
-    }
+    if (e.target === e.currentTarget && !isSubmitting) onClose(false);
   };
 
   const handleClose = () => {
     if (!isSubmitting) {
-      setFormData({
-        nome: '',
-        email: '',
-        instituicao: '',
-        telefone: '',
-        dataEntrega: '',
-        parcelas: ''
-      });
       setErrors({});
       setShowSuccess(false);
       onClose(false);
@@ -171,22 +208,13 @@ const ModalCheckout = ({ isOpen, onClose, carrinho }) => {
   return (
     <div className={styles.overlay} onClick={handleOverlayClick}>
       <div className={styles.modal}>
+
         {/* Header */}
         <div className={styles.header}>
-          <h2 className={styles.title}>
-            📋 RESUMO DO PEDIDO
-          </h2>
-          <button
-            className={styles.closeButton}
-            onClick={handleClose}
-            disabled={isSubmitting}
-            aria-label="Fechar modal"
-          >
-            ✕
-          </button>
+          <h2 className={styles.title}>📋 RESUMO DO PEDIDO</h2>
+          <button className={styles.closeButton} onClick={handleClose} disabled={isSubmitting}>✕</button>
         </div>
 
-        {/* Body */}
         <div className={styles.body}>
           {!showSuccess ? (
             <>
@@ -218,177 +246,242 @@ const ModalCheckout = ({ isOpen, onClose, carrinho }) => {
                 </div>
               </div>
 
-              {/* Formulário */}
               <form className={styles.form} onSubmit={handleSubmit}>
-                <h3 className={styles.formTitle}>
-                  👤 DADOS DA ENTREGA
-                </h3>
 
-                {/* Nome Completo */}
+                {/* ===== DADOS DE FATURAMENTO ===== */}
+                <h3 className={styles.sectionTitle}>🧾 DADOS DE FATURAMENTO</h3>
+
                 <div className={styles.inputGroup}>
-                  <label className={styles.label}>
-                    Nome Completo<span className={styles.required}>*</span>
-                  </label>
-                  <input
-                    type="text"
-                    className={`${styles.input} ${errors.nome ? styles.inputError : ''}`}
-                    value={formData.nome}
-                    onChange={(e) => setFormData({ ...formData, nome: e.target.value })}
-                    placeholder="Digite seu nome completo..."
-                    disabled={isSubmitting}
-                  />
-                  {errors.nome && (
-                    <span className={styles.errorMessage}>{errors.nome}</span>
-                  )}
+                  <label className={styles.label}>Razão Social / Nome Completo<span className={styles.required}>*</span></label>
+                  <input type="text" className={`${styles.input} ${errors.razaoSocial ? styles.inputError : ''}`}
+                    value={formData.razaoSocial} onChange={(e) => handleChange('razaoSocial', e.target.value)}
+                    placeholder="Razão social ou nome completo" disabled={isSubmitting} />
+                  {errors.razaoSocial && <span className={styles.errorMessage}>{errors.razaoSocial}</span>}
                 </div>
 
-                {/* E-mail */}
-                <div className={styles.inputGroup}>
-                  <label className={styles.label}>
-                    E-mail<span className={styles.required}>*</span>
-                  </label>
-                  <input
-                    type="email"
-                    className={`${styles.input} ${errors.email ? styles.inputError : ''}`}
-                    value={formData.email}
-                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    placeholder="exemplo@email.com"
-                    disabled={isSubmitting}
-                  />
-                  {errors.email && (
-                    <span className={styles.errorMessage}>{errors.email}</span>
-                  )}
-                </div>
-
-                {/* Telefone/WhatsApp */}
-                <div className={styles.inputGroup}>
-                  <label className={styles.label}>
-                    Telefone/ WhatsApp<span className={styles.required}>*</span>
-                  </label>
-                  <input
-                    type="tel"
-                    className={`${styles.input} ${errors.telefone ? styles.inputError : ''}`}
-                    value={formData.telefone}
-                    onChange={handlePhoneChange}
-                    placeholder="(00) 00000-0000"
-                    maxLength="15"
-                    disabled={isSubmitting}
-                  />
-                  {errors.telefone && (
-                    <span className={styles.errorMessage}>{errors.telefone}</span>
-                  )}
-                </div>
-                {/* Instituição */} 
-                 <div className={styles.inputGroup}>
-                  <label className={styles.label}>
-                    Instituição<span className={styles.required}>*</span>
-                  </label>
-                  <input
-                    type="text"
-                    className={`${styles.input} ${errors.instituicao ? styles.inputError : ''}`}
-                    value={formData.instituicao}
-                    onChange={(e) => setFormData({ ...formData, instituicao: e.target.value })}
-                    placeholder="Digite sua instituição..."
-                    disabled={isSubmitting}
-                  />
-                  {errors.instituicao && (
-                    <span className={styles.errorMessage}>{errors.instituicao}</span>
-                  )}
-                </div>
-
-                {/* Data da Entrega */}
-                <div className={styles.inputGroup}>
-                  <label className={styles.label}>
-                    Data da Entrega<span className={styles.required}>*</span>
-                  </label>
-                  <input
-                    type="date"
-                    className={`${styles.input} ${errors.dataEntrega ? styles.inputError : ''}`}
-                    value={formData.dataEntrega}
-                    onChange={(e) => setFormData({ ...formData, dataEntrega: e.target.value })}
-                    placeholder="dd/mm/aaaa"
-                    disabled={isSubmitting}
-                  />
-                  {errors.dataEntrega && (
-                    <span className={styles.errorMessage}>{errors.dataEntrega}</span>
-                  )}
-                </div>
-
-                {/* Planeamento da Compra */}
-                <div className={styles.inputGroup}>
-                  <label className={styles.label}>
-                    Planeamento da Compra<span className={styles.required}>*</span>
-                  </label>
-                  <select
-                    className={`${styles.input} ${errors.parcelas ? styles.inputError : ''}`}
-                    value={formData.parcelas}
-                    onChange={(e) => setFormData({ ...formData, parcelas: e.target.value })}
-                    disabled={isSubmitting}
-                  >
-                    <option value="">Selecione</option>
-                    <option value="avista">À Vista</option>
-                    {Array.from({ length: 12 }, (_, i) => i + 1).map((num) => (
-                      <option key={num} value={num}>
-                        {num}x {num === 1 ? 'Mês' : 'Meses'}
-                      </option>
-                    ))}
-                  </select>
-                  {errors.parcelas && (
-                    <span className={styles.errorMessage}>{errors.parcelas}</span>
-                  )}
-                </div>
-
-                {/* Erro geral */}
-                {errors.submit && (
-                  <div className={styles.submitError}>
-                    {errors.submit}
+                <div className={styles.inputRow}>
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>CNPJ / CPF<span className={styles.required}>*</span></label>
+                    <input type="text" className={`${styles.input} ${errors.cnpjCpf ? styles.inputError : ''}`}
+                      value={formData.cnpjCpf} onChange={(e) => handleChange('cnpjCpf', formatCnpjCpf(e.target.value))}
+                      placeholder="000.000.000-00" disabled={isSubmitting} maxLength={18} />
+                    {errors.cnpjCpf && <span className={styles.errorMessage}>{errors.cnpjCpf}</span>}
                   </div>
-                )}
 
-                {/* Botão Submit */}
-                <button
-                  type="submit"
-                  className={styles.submitButton}
-                  disabled={isSubmitting}
-                >
-                  {isSubmitting ? (
-                    <>⏳ Enviando...</>
-                  ) : (
-                    <>✅ Confirmar Pedido</>
-                  )}
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>Faturamento</label>
+                    <input type="text" className={styles.input}
+                      value={formData.faturamento} onChange={(e) => handleChange('faturamento', e.target.value)}
+                      placeholder="Ex: Mensal, Anual..." disabled={isSubmitting} />
+                  </div>
+                </div>
+
+                <div className={styles.inputGroup}>
+                  <label className={styles.label}>Endereço Completo<span className={styles.required}>*</span></label>
+                  <input type="text" className={`${styles.input} ${errors.enderecoFaturamento ? styles.inputError : ''}`}
+                    value={formData.enderecoFaturamento} onChange={(e) => handleChange('enderecoFaturamento', e.target.value)}
+                    placeholder="Rua, número, bairro, cidade..." disabled={isSubmitting} />
+                  {errors.enderecoFaturamento && <span className={styles.errorMessage}>{errors.enderecoFaturamento}</span>}
+                </div>
+
+                <div className={styles.inputRow}>
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>E-mail<span className={styles.required}>*</span></label>
+                    <input type="email" className={`${styles.input} ${errors.emailFaturamento ? styles.inputError : ''}`}
+                      value={formData.emailFaturamento} onChange={(e) => handleChange('emailFaturamento', e.target.value)}
+                      placeholder="exemplo@email.com" disabled={isSubmitting} />
+                    {errors.emailFaturamento && <span className={styles.errorMessage}>{errors.emailFaturamento}</span>}
+                  </div>
+
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>Telefone<span className={styles.required}>*</span></label>
+                    <input type="tel" className={`${styles.input} ${errors.telefoneFaturamento ? styles.inputError : ''}`}
+                      value={formData.telefoneFaturamento} onChange={(e) => handleChange('telefoneFaturamento', formatPhone(e.target.value))}
+                      placeholder="(00) 00000-0000" maxLength={15} disabled={isSubmitting} />
+                    {errors.telefoneFaturamento && <span className={styles.errorMessage}>{errors.telefoneFaturamento}</span>}
+                  </div>
+                </div>
+
+                {/* ===== DADOS DO PROJETO ===== */}
+                <h3 className={styles.sectionTitle}>🔬 DADOS DO PROJETO</h3>
+
+                <div className={styles.inputGroup}>
+                  <label className={styles.label}>Descrição do Projeto</label>
+                  <textarea className={styles.textarea}
+                    value={formData.dadosProjeto} onChange={(e) => handleChange('dadosProjeto', e.target.value)}
+                    placeholder="Descreva os dados do projeto..." rows={3} disabled={isSubmitting} />
+                </div>
+
+                {/* ===== DADOS DE ENTREGA ===== */}
+                <h3 className={styles.sectionTitle}>🚚 DADOS DE ENTREGA</h3>
+
+                <div className={styles.checkboxGroup}>
+                  <input type="checkbox" id="mesmoEndereco" checked={mesmoEndereco}
+                    onChange={(e) => handleMesmoEndereco(e.target.checked)} disabled={isSubmitting} />
+                  <label htmlFor="mesmoEndereco">Mesmo endereço de faturamento</label>
+                </div>
+
+                <div className={styles.inputRow}>
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>CNPJ / CPF Destinatário</label>
+                    <input type="text" className={styles.input}
+                      value={formData.cnpjCpfEntrega} onChange={(e) => handleChange('cnpjCpfEntrega', formatCnpjCpf(e.target.value))}
+                      placeholder="000.000.000-00" maxLength={18} disabled={isSubmitting || mesmoEndereco} />
+                  </div>
+
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>Nome Destinatário<span className={styles.required}>*</span></label>
+                    <input type="text" className={`${styles.input} ${errors.destinatario ? styles.inputError : ''}`}
+                      value={formData.destinatario} onChange={(e) => handleChange('destinatario', e.target.value)}
+                      placeholder="Nome do destinatário" disabled={isSubmitting} />
+                    {errors.destinatario && <span className={styles.errorMessage}>{errors.destinatario}</span>}
+                  </div>
+                </div>
+
+                <div className={styles.inputGroup}>
+                  <label className={styles.label}>Endereço de Entrega<span className={styles.required}>*</span></label>
+                  <input type="text" className={`${styles.input} ${errors.enderecoEntrega ? styles.inputError : ''}`}
+                    value={formData.enderecoEntrega} onChange={(e) => handleChange('enderecoEntrega', e.target.value)}
+                    placeholder="Rua, Avenida..." disabled={isSubmitting || mesmoEndereco} />
+                  {errors.enderecoEntrega && <span className={styles.errorMessage}>{errors.enderecoEntrega}</span>}
+                </div>
+
+                <div className={styles.inputRow}>
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>Bairro<span className={styles.required}>*</span></label>
+                    <input type="text" className={`${styles.input} ${errors.bairro ? styles.inputError : ''}`}
+                      value={formData.bairro} onChange={(e) => handleChange('bairro', e.target.value)}
+                      placeholder="Bairro" disabled={isSubmitting} />
+                    {errors.bairro && <span className={styles.errorMessage}>{errors.bairro}</span>}
+                  </div>
+
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>CEP<span className={styles.required}>*</span></label>
+                    <input type="text" className={`${styles.input} ${errors.cep ? styles.inputError : ''}`}
+                      value={formData.cep} onChange={(e) => handleChange('cep', formatCep(e.target.value))}
+                      placeholder="00000-000" maxLength={9} disabled={isSubmitting} />
+                    {errors.cep && <span className={styles.errorMessage}>{errors.cep}</span>}
+                  </div>
+
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>N°<span className={styles.required}>*</span></label>
+                    <input type="text" className={`${styles.input} ${errors.numero ? styles.inputError : ''}`}
+                      value={formData.numero} onChange={(e) => handleChange('numero', e.target.value)}
+                      placeholder="Nº" disabled={isSubmitting} />
+                    {errors.numero && <span className={styles.errorMessage}>{errors.numero}</span>}
+                  </div>
+                </div>
+
+                <div className={styles.inputGroup}>
+                  <label className={styles.label}>Complemento</label>
+                  <input type="text" className={styles.input}
+                    value={formData.complemento} onChange={(e) => handleChange('complemento', e.target.value)}
+                    placeholder="Apto, bloco..." disabled={isSubmitting} />
+                </div>
+
+                <div className={styles.inputRow}>
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>Instituição</label>
+                    <input type="text" className={styles.input}
+                      value={formData.instituicao} onChange={(e) => handleChange('instituicao', e.target.value)}
+                      placeholder="Nome da instituição" disabled={isSubmitting} />
+                  </div>
+
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>Departamento</label>
+                    <input type="text" className={styles.input}
+                      value={formData.departamento} onChange={(e) => handleChange('departamento', e.target.value)}
+                      placeholder="Departamento" disabled={isSubmitting} />
+                  </div>
+                </div>
+
+                <div className={styles.inputRow}>
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>Sala</label>
+                    <input type="text" className={styles.input}
+                      value={formData.sala} onChange={(e) => handleChange('sala', e.target.value)}
+                      placeholder="Sala" disabled={isSubmitting} />
+                  </div>
+
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>Bloco</label>
+                    <input type="text" className={styles.input}
+                      value={formData.bloco} onChange={(e) => handleChange('bloco', e.target.value)}
+                      placeholder="Bloco" disabled={isSubmitting} />
+                  </div>
+
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>Laboratório</label>
+                    <input type="text" className={styles.input}
+                      value={formData.laboratorio} onChange={(e) => handleChange('laboratorio', e.target.value)}
+                      placeholder="Laboratório" disabled={isSubmitting} />
+                  </div>
+                </div>
+
+                <div className={styles.inputRow}>
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>E-mail<span className={styles.required}>*</span></label>
+                    <input type="email" className={`${styles.input} ${errors.emailEntrega ? styles.inputError : ''}`}
+                      value={formData.emailEntrega} onChange={(e) => handleChange('emailEntrega', e.target.value)}
+                      placeholder="exemplo@email.com" disabled={isSubmitting || mesmoEndereco} />
+                    {errors.emailEntrega && <span className={styles.errorMessage}>{errors.emailEntrega}</span>}
+                  </div>
+
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>Telefone / Celular<span className={styles.required}>*</span></label>
+                    <input type="tel" className={`${styles.input} ${errors.telefoneEntrega ? styles.inputError : ''}`}
+                      value={formData.telefoneEntrega} onChange={(e) => handleChange('telefoneEntrega', formatPhone(e.target.value))}
+                      placeholder="(00) 00000-0000" maxLength={15} disabled={isSubmitting || mesmoEndereco} />
+                    {errors.telefoneEntrega && <span className={styles.errorMessage}>{errors.telefoneEntrega}</span>}
+                  </div>
+                </div>
+
+                {/* ===== PLANO DE COMPRA ===== */}
+                <h3 className={styles.sectionTitle}>💳 PLANO DE COMPRA</h3>
+
+                <div className={styles.inputRow}>
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>Planejamento da Compra<span className={styles.required}>*</span></label>
+                    <select className={`${styles.input} ${errors.parcelas ? styles.inputError : ''}`}
+                      value={formData.parcelas} onChange={(e) => handleChange('parcelas', e.target.value)}
+                      disabled={isSubmitting}>
+                      <option value="">Selecione</option>
+                      <option value="avista">À Vista</option>
+                      {Array.from({ length: 12 }, (_, i) => i + 1).map((num) => (
+                        <option key={num} value={num}>{num}x {num === 1 ? 'Mês' : 'Meses'}</option>
+                      ))}
+                    </select>
+                    {errors.parcelas && <span className={styles.errorMessage}>{errors.parcelas}</span>}
+                  </div>
+
+                  <div className={styles.inputGroup}>
+                    <label className={styles.label}>Data de Entrega<span className={styles.required}>*</span></label>
+                    <input type="date" className={`${styles.input} ${errors.dataEntrega ? styles.inputError : ''}`}
+                      value={formData.dataEntrega} onChange={(e) => handleChange('dataEntrega', e.target.value)}
+                      disabled={isSubmitting} />
+                    {errors.dataEntrega && <span className={styles.errorMessage}>{errors.dataEntrega}</span>}
+                  </div>
+                </div>
+
+                {errors.submit && <div className={styles.submitError}>{errors.submit}</div>}
+
+                <button type="submit" className={styles.submitButton} disabled={isSubmitting}>
+                  {isSubmitting ? <>⏳ Enviando...</> : <>✅ Confirmar Pedido</>}
                 </button>
+
               </form>
             </>
           ) : (
-            /* Mensagem de Sucesso */
             <div className={styles.successContainer}>
               <div className={styles.successIcon}>
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M5 13l4 4L19 7"
-                    stroke="white"
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
+                  <path d="M5 13l4 4L19 7" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </div>
-
-              <h2 className={styles.successTitle}>
-                Pedido Enviado com Sucesso!
-              </h2>
-
-              <p className={styles.successMessage}>
-                Obrigado, <strong>{formData.nome}</strong>!
-              </p>
-
-              <p className={styles.successMessage}>
-                Nossa equipe entrará em contato em breve.
-              </p>
-
-              <div className={styles.successEmail}>
-                📧 Confirmação enviada para: {formData.email}
-              </div>
+              <h2 className={styles.successTitle}>Pedido Enviado com Sucesso!</h2>
+              <p className={styles.successMessage}>Obrigado, <strong>{formData.razaoSocial}</strong>!</p>
+              <p className={styles.successMessage}>Nossa equipe entrará em contato em breve.</p>
+              <div className={styles.successEmail}>📧 Confirmação enviada para: {formData.emailFaturamento}</div>
             </div>
           )}
         </div>

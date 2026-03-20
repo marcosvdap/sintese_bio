@@ -66,6 +66,7 @@ const Sobre = () => {
         </div>
       </div>  
     </div>
+    
   );
 };
 

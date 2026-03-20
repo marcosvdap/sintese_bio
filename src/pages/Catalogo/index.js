@@ -5,6 +5,8 @@ import styles from './catalogo.module.css';
 import Cabecalho from 'Components/Cabecalhocat';
 import Rodape from 'Components/Rodape';
 import Filtro from 'Components/filtro';
+import WhatsAppButton from 'Components/WhatsAppButton';
+
 
 const Catalogo = () => {
   // --- Filtros ---
@@ -113,7 +115,9 @@ const Catalogo = () => {
         )}
       </div>
       <Rodape />
+      <WhatsAppButton />
     </div>
+    
   );
 };
 

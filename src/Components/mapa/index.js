@@ -15,10 +15,11 @@ const Mapa = () => {
             cor: '#3CAFCE',
             representantes: [
                 {
-                    empresa: 'JIRON BIOTECH',
+                    empresa: 'JIROSA BIOTECH',
                     locais: 'Acre, Amapá, Amazonas, Pará, Rondônia, Roraima, Tocantins',
+                    contato: 'Juliana Rosa',
                     telefone: '(76) 99207-3824',
-                    email: 'jironbiotech@gmail.com'
+                    email: 'jrosabiotech@gmail.com'
                 }
             ]
         },
@@ -27,11 +28,13 @@ const Mapa = () => {
             cor: '#5B7FBE',
             representantes: [
                 {
-                    empresa: 'JIRON BIOTECH',
-                    locais: 'Maranhão, Piauí, Ceará, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas, Sergipe, Bahia',
-                    telefone: '(71) 99207-3824',
-                    email: 'jironbiotech@gmail.com'
+                    empresa: 'JIROSA BIOTECH',
+                    locais: 'Acre, Amapá, Amazonas, Pará, Rondônia, Roraima, Tocantins',
+                    contato: 'Juliana Rosa',
+                    telefone: '(76) 99207-3824',
+                    email: 'jrosabiotech@gmail.com'
                 }
+                
             ]
         },
         centroOeste: {
@@ -39,10 +42,10 @@ const Mapa = () => {
             cor: '#F5B800',
             representantes: [
                 {
-                    empresa: 'RM / NANOFORTECH',
+                    empresa: 'JHP / NANOBIOTECH',
                     locais: 'Goiás, Distrito Federal',
                     contato: 'Henrique D\'Luz / Viapex',
-                    telefone: '(61) 99569-4359',
+                    telefone: '(61) 99651-6285',
                     email: 'henrique.dluz@nftcorp.com'
                 },
                 {
@@ -62,8 +65,8 @@ const Mapa = () => {
                     empresa: 'SÍNTESE BIOTECNOLOGIA',
                     locais: 'Minas Gerais, Espírito Santo',
                     contato: 'Iago Oliveira',
-                    telefone: '(31) 97404-9602',
-                    email: 'iago.dorf@sintesebio.com.br'
+                    telefone: '(31) 99946-0282',
+                    email: 'iago@sintesebio.com.br'
                 },
                 {
                     empresa: 'SÍNTESE BIOTECNOLOGIA',
@@ -71,7 +74,36 @@ const Mapa = () => {
                     contato: 'Sergio Domenico',
                     telefone: '(16) 97400-0901',
                     email: 'sergio@sintesebio.com.br'
+                },
+                {
+                    empresa: 'ATLANTIS',
+                    locais: ' Rio de Janeiro',
+                    contato: 'Renata Cabral',
+                    telefone: '(21) 99256-2453',
+                    email: 'renata.cabral@atlantisbiotec.com.br'
+                },
+                {
+                    empresa: 'NEXXLAB',
+                    locais: 'Campinas, Valinhos, Vinhedo, Jaguariúna, Piracicaba, Itatiba, Limeira, Jundiaí,Cordeirópolis, Araras, Itu, Sousas, Paulíni, Louveira, Artur Nogueira, Santa Barbara D’oeste,Amparo, Engenheiro Coelho, Iracemápolis, Itupeva, Salto, Nova Odessa, São Pedro, MogiGuaçu, Hortolândia, Itupeva, Monte Mor, Águas de São Pedro, Atibaia, Mogi Mirim,Indaiatuba, Sumaré, Pedreira, Bragança Paulista, Itapira, Charqueada, Serra Negra,Cosmópolis, Americana, Pedreira, Santo Antônio de Posse, Santo Antônio de Posse,Holambra, Rio das Pedras, Lindóia, Pirassununga, Itapetininga',
+                    contato: 'Kleber Borges',
+                    telefone: '(19) 97172-7966',
+                    email: 'contato@nexxlab.com.br'
+                },
+                {
+                    empresa: 'GRUPO BR4',
+                    locais: 'Botucatu',
+                    contato: 'Uilian Andreis',
+                    telefone: '(14) 99708-6771',
+                    email: 'uilian.andreis@grupobr4.com.br'
+                },
+                {
+                    empresa: 'OMICS',
+                    locais: 'Ribeirão Preto',
+                    contato: 'Geisa Santos',
+                    telefone: '(16) 99729-4019',
+                    email: 'geisa@omics.com.br'
                 }
+
             ]
         },
         sul: {
@@ -84,7 +116,14 @@ const Mapa = () => {
                     contato: 'Customer Service',
                     telefone: '0(5) 5024-0004',
                     email: 'comercial2@sintesebio.com.br'
-                }
+                },
+                 {
+                    empresa: 'NEXXLAB',
+                    locais: 'Paraná, Santa Catarina',
+                    contato: 'Kleber Borges',
+                    telefone: '(19) 97172-7966',
+                    email: 'contato@nexxlab.com.br'
+                },
             ]
         },
     };
