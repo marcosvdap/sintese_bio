@@ -94,7 +94,7 @@ const Carrinho = () => {
                                         className={styles.btnFazerCotacao}
                                         onClick={handleFazerCotacao}
                                     >
-                                        FAZER COTAÇÃO
+                                        SOLICITAR COTAÇÃO
                                     </button>
                                     <button
                                         className={styles.btnLimpar}

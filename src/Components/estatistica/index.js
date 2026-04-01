@@ -11,8 +11,8 @@ const Estatisticas = () => {
       <div className={styles.statsContainer}>
         <div className={styles.statCard}>
           <img src={iconMarcas} alt="Marcas Mundiais" className={styles.statIcon} />
-          <h3 className={styles.statNumber}>20+</h3>
-          <p className={styles.statLabel}>marcas mundiais</p>
+          <h3 className={styles.statNumber}>27</h3>
+          <p className={styles.statLabel}>Estados presença nacional</p>
         </div>
 
         <div className={styles.statCard}>

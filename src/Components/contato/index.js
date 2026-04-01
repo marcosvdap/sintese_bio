@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styles from './contato.module.css';
-import whatsappIcon from '../../assets/imagens/whatsapp.png';
-import mapaImg from '../../assets/imagens/mapa_contato.png';
+// import mapaImg from '../../assets/imagens/mapa_contato.png'; // <- Remova ou comente esta linha
 
 const Contato = () => {
   const [formData, setFormData] = useState({
@@ -20,16 +19,13 @@ const Contato = () => {
       ...prev,
       [name]: value
     }));
-    // Limpa o erro do campo quando usuário digita
     if (errors[name]) {
       setErrors(prev => ({ ...prev, [name]: '' }));
     }
   };
 
   const validarTelefone = (telefone) => {
-    // Remove tudo que não é número
     const numeros = telefone.replace(/\D/g, '');
-    // Valida se tem 10 ou 11 dígitos (com DDD)
     return numeros.length >= 10 && numeros.length <= 11;
   };
 
@@ -75,7 +71,6 @@ const Contato = () => {
     setLoading(true);
 
     try {
-      // Aqui você vai fazer a requisição para sua API
       const response = await fetch('http://201.23.76.238:5000/api/contato', {
         method: 'POST',
         headers: {
@@ -120,22 +115,24 @@ const Contato = () => {
             <p className={styles.infoTexto}>+55 31 3234-0000</p>
           </div>
 
+          {/* MAPA DO GOOGLE AQUI */}
+{/* MAPA DO GOOGLE AQUI */}
           <div className={styles.mapaContainer}>
-            <img src={mapaImg} alt="Localização" />
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4616.425796048703!2d-43.96940322388624!3d-19.892272737136587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6905e898c0001%3A0xd441ff3716b9a8e4!2sS%C3%ADntese%20Biotecnologia!5e1!3m2!1spt-BR!2sbr!4v1775005931328!5m2!1spt-BR!2sbr"
+              width="100%"
+              height="450"
+              style={{ border: 0, borderRadius: '8px' }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Mapa de Localização"
+            ></iframe>
           </div>
         </div>
 
         {/* Lado Direito - Formulário */}
         <div className={styles.contatoForm}>
-          <a 
-            href="https://wa.me/5531999999999" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className={styles.whatsappBtn}
-          >
-            <img src={whatsappIcon} alt="WhatsApp" />
-          </a>
-
           <form onSubmit={handleSubmit}>
             <div className={styles.formGroup}>
               <input

@@ -140,6 +140,15 @@ img {
     width: 150px;
   }
 }
+/* Adicione isso ao final do seu arquivo cabecalho.module.css */
+
+.ativo a, 
+.ativo button,
+.ativo {
+    font-weight: bold; /* Deixa o texto em negrito */
+    /* Você também pode adicionar outras coisas, como mudar a cor: */
+    /* color: #FF5733; */ 
+}
 
 @media (max-width: 480px) {
   .cabecalho {

@@ -31,7 +31,7 @@ const ResumoCarrinho = () => {
           className={styles.btnFazerCotacao}
           onClick={handleFazerCotacao}
         >
-          FAZER COTAÇÃO
+          SOLICITAR COTAÇÃO
         </button>
         
         <button 
